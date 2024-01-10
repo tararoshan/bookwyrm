@@ -19,7 +19,7 @@ msgstr ""
 
 #: bookwyrm/forms/admin.py:42
 msgid "One Day"
-msgstr "يوم واحد"
+msgstr ""
 
 #: bookwyrm/forms/admin.py:43
 msgid "One Week"

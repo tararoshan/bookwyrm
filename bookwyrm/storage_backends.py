@@ -9,7 +9,8 @@ class StaticStorage(S3Boto3Storage):  # pylint: disable=abstract-method
 
     location = "static"
     default_acl = "public-read"
-
+   
+   
 
 class ImagesStorage(S3Boto3Storage):  # pylint: disable=abstract-method
     """Storage class for Image files"""
