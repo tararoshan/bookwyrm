@@ -38,6 +38,29 @@ languages = {
     "/languages/scr": "Croatian",
     "/languages/mul": "Multiple languages",
     "/languages/fin": "Finnish",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     "/languages/tam": "Tamil",
     "/languages/guj": "Gujarati",
     "/languages/mar": "Marathi",
