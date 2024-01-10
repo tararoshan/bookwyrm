@@ -3,8 +3,7 @@ name: Update locales
 on:
   push:
     # run this workflow when someone pushes to the l10n_main branch
-    # TODO remove other branches after testing
-    branches: [ l10n_main, main, WIP-2706-update-locales ]
+    branches: [ l10n_main ]
 
 jobs:
   build:
@@ -21,10 +20,9 @@ jobs:
 
     - name: Create pull request
       run: |
-        git config user.email "placeholderemail"
-        git config user.name "GitHub Action"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
         git commit -a -m "[GitHub Action] Update locales"
-        gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action'
+        gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action using the update-locales.yml workflow'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
