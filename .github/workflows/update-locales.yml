@@ -21,6 +21,8 @@ jobs:
 
     - name: Create pull request
       run: |
+        git config user.email "placeholderemail"
+        git config user.name "GitHub Action"
         git commit -a -m "[GitHub Action] Update locales"
         gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action'
       env:
