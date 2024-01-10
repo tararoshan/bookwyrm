@@ -22,11 +22,11 @@ jobs:
     # Create the mock file for the update_locales command to work, otherwise
     # we'll get an 'no such file' error
     - name: Create mock .env file
-      run: echo "DEBUG=false" > .env
+      run: echo "DEBUG=true" > .env
 
     - name: Run update_locales command
       run: ./bw-dev update_locales
-      
+
     - name: Create pull request
       run: gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action'
       env:
