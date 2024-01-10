@@ -11,16 +11,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.9
-    - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+    # - name: Set up Python 3.9
+    #   uses: actions/setup-python@v4
+    #   with:
+    #     python-version: 3.9
+    # - name: Install Dependencies
+    #   run: |
+    #     python -m pip install --upgrade pip
+    #     pip install -r requirements.txt
+    # Create the mock file for the update_locales command to work, otherwise
+    # we'll get an 'no such file' error
+    - name: Create mock .env file
+      run: echo "DEBUG=false" > .env
+
     - name: Run update_locales command
       run: ./bw-dev update_locales
+      
     - name: Create pull request
       run: gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action'
       env:
