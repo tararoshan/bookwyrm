@@ -2859,6 +2859,24 @@ msgstr ""
 msgid "On average, recent imports have taken %(hours)s hours."
 msgstr ""
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #: bookwyrm/templates/import/import.html:37
 #, python-format
 msgid "On average, recent imports have taken %(minutes)s minutes."
