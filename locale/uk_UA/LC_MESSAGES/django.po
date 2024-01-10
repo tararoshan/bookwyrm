@@ -17,6 +17,18 @@ msgstr ""
 "X-Crowdin-File: /[bookwyrm-social.bookwyrm] main/locale/en_US/LC_MESSAGES/django.po\n"
 "X-Crowdin-File-ID: 1553\n"
 
+
+
+
+
+
+
+
+
+
+
+
+
 #: bookwyrm/forms/admin.py:42
 msgid "One Day"
 msgstr "Один День"
