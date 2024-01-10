@@ -2,8 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-01-02 03:27+0000\n"
 "PO-Revision-Date: 2024-01-02 04:10\n"
+=======
+"POT-Creation-Date: 2023-12-30 23:52+0000\n"
+"PO-Revision-Date: 2024-01-02 03:11\n"
+>>>>>>> main
 "Last-Translator: Mouse Reeve <mousereeve@riseup.net>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -54,6 +59,7 @@ msgstr "Parola nu se potrivește"
 msgid "Incorrect Password"
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/forms/forms.py:58
 msgid "Reading finish date cannot be before start date."
 msgstr "Data de terminare a lecturii nu poate fi înainte de data de început."
@@ -67,6 +73,21 @@ msgid "Reading stopped date cannot be in the future."
 msgstr ""
 
 #: bookwyrm/forms/forms.py:78
+=======
+#: bookwyrm/forms/forms.py:54
+msgid "Reading finish date cannot be before start date."
+msgstr "Data de terminare a lecturii nu poate fi înainte de data de început."
+
+#: bookwyrm/forms/forms.py:59
+msgid "Reading stopped date cannot be before start date."
+msgstr "Data de sfârșit a lecturii nu poate fi înainte de data de început."
+
+#: bookwyrm/forms/forms.py:67
+msgid "Reading stopped date cannot be in the future."
+msgstr ""
+
+#: bookwyrm/forms/forms.py:74
+>>>>>>> main
 msgid "Reading finished date cannot be in the future."
 msgstr ""
 
@@ -146,8 +167,12 @@ msgid "Automatically generated report"
 msgstr "Raport generat automat"
 
 #: bookwyrm/models/base_model.py:18 bookwyrm/models/import_job.py:48
+<<<<<<< HEAD
 #: bookwyrm/models/job.py:18 bookwyrm/models/link.py:72
 #: bookwyrm/templates/import/import_status.html:214
+=======
+#: bookwyrm/models/link.py:72 bookwyrm/templates/import/import_status.html:214
+>>>>>>> main
 #: bookwyrm/templates/settings/link_domains/link_domains.html:19
 msgid "Pending"
 msgstr "În așteptare"
@@ -259,16 +284,22 @@ msgstr "Urmăritori"
 msgid "Private"
 msgstr "Privat"
 
+<<<<<<< HEAD
 #: bookwyrm/models/import_job.py:49 bookwyrm/models/job.py:19
 #: bookwyrm/templates/import/import.html:173
 #: bookwyrm/templates/import/import_user.html:211
 #: bookwyrm/templates/preferences/export-user.html:112
 #: bookwyrm/templates/settings/imports/imports.html:131
 #: bookwyrm/templates/settings/imports/imports.html:221
+=======
+#: bookwyrm/models/import_job.py:49 bookwyrm/templates/import/import.html:174
+#: bookwyrm/templates/settings/imports/imports.html:98
+>>>>>>> main
 #: bookwyrm/templates/snippets/user_active_tag.html:8
 msgid "Active"
 msgstr "Activ"
 
+<<<<<<< HEAD
 #: bookwyrm/models/import_job.py:50 bookwyrm/models/job.py:20
 #: bookwyrm/templates/import/import.html:171
 #: bookwyrm/templates/import/import_user.html:209
@@ -277,6 +308,13 @@ msgid "Complete"
 msgstr ""
 
 #: bookwyrm/models/import_job.py:51 bookwyrm/models/job.py:21
+=======
+#: bookwyrm/models/import_job.py:50 bookwyrm/templates/import/import.html:172
+msgid "Complete"
+msgstr ""
+
+#: bookwyrm/models/import_job.py:51
+>>>>>>> main
 msgid "Stopped"
 msgstr ""
 
@@ -292,10 +330,13 @@ msgstr "Eroare la încărcarea cărții"
 msgid "Could not find a match for book"
 msgstr "Nu a putut fi găsită o potrivire pentru carte"
 
+<<<<<<< HEAD
 #: bookwyrm/models/job.py:22
 msgid "Failed"
 msgstr ""
 
+=======
+>>>>>>> main
 #: bookwyrm/models/link.py:51
 msgid "Free"
 msgstr "Gratuită"
@@ -371,7 +412,11 @@ msgstr "Recenzii"
 msgid "Comments"
 msgstr "Comentarii"
 
+<<<<<<< HEAD
 #: bookwyrm/models/user.py:35 bookwyrm/templates/import/import_user.html:139
+=======
+#: bookwyrm/models/user.py:35
+>>>>>>> main
 msgid "Quotations"
 msgstr "Citate"
 
@@ -980,7 +1025,10 @@ msgstr "Salvați"
 #: bookwyrm/templates/search/barcode_modal.html:43
 #: bookwyrm/templates/settings/federation/instance.html:106
 #: bookwyrm/templates/settings/imports/complete_import_modal.html:16
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/complete_user_import_modal.html:16
+=======
+>>>>>>> main
 #: bookwyrm/templates/settings/link_domains/edit_domain_modal.html:22
 #: bookwyrm/templates/snippets/report_modal.html:52
 msgid "Cancel"
@@ -998,7 +1046,10 @@ msgstr "Încărcatul de date se va conecta la <strong>%(source_name)s</strong> �
 #: bookwyrm/templates/landing/password_reset.html:52
 #: bookwyrm/templates/preferences/2fa.html:77
 #: bookwyrm/templates/settings/imports/complete_import_modal.html:19
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/complete_user_import_modal.html:19
+=======
+>>>>>>> main
 #: bookwyrm/templates/snippets/remove_from_group_button.html:17
 msgid "Confirm"
 msgstr "Confirmați"
@@ -1500,12 +1551,18 @@ msgid "Domain"
 msgstr "Domeniu"
 
 #: bookwyrm/templates/book/file_links/edit_links.html:36
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:138
 #: bookwyrm/templates/import/import_status.html:134
 #: bookwyrm/templates/import/import_user.html:177
 #: bookwyrm/templates/preferences/export-user.html:78
 #: bookwyrm/templates/settings/announcements/announcements.html:37
 #: bookwyrm/templates/settings/imports/imports.html:255
+=======
+#: bookwyrm/templates/import/import.html:139
+#: bookwyrm/templates/import/import_status.html:134
+#: bookwyrm/templates/settings/announcements/announcements.html:37
+>>>>>>> main
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:48
 #: bookwyrm/templates/settings/invites/status_filter.html:5
 #: bookwyrm/templates/settings/themes.html:111
@@ -1517,8 +1574,12 @@ msgstr "Status"
 #: bookwyrm/templates/book/file_links/edit_links.html:37
 #: bookwyrm/templates/settings/announcements/announcements.html:41
 #: bookwyrm/templates/settings/federation/instance.html:112
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:174
 #: bookwyrm/templates/settings/imports/imports.html:253
+=======
+#: bookwyrm/templates/settings/imports/imports.html:141
+>>>>>>> main
 #: bookwyrm/templates/settings/reports/report_links_table.html:6
 #: bookwyrm/templates/settings/themes.html:108
 msgid "Actions"
@@ -2854,6 +2915,7 @@ msgid "No activities for this hashtag yet!"
 msgstr ""
 
 #: bookwyrm/templates/import/import.html:5
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:6
 #: bookwyrm/templates/preferences/layout.html:43
 msgid "Import Book List"
@@ -2864,6 +2926,18 @@ msgid "Not a valid CSV file"
 msgstr ""
 
 #: bookwyrm/templates/import/import.html:20
+=======
+#: bookwyrm/templates/import/import.html:9
+#: bookwyrm/templates/shelf/shelf.html:66
+msgid "Import Books"
+msgstr "Importați cărți"
+
+#: bookwyrm/templates/import/import.html:13
+msgid "Not a valid CSV file"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:21
+>>>>>>> main
 #, python-format
 msgid "Currently, you are allowed to import %(display_size)s books every %(import_limit_reset)s day."
 msgid_plural "Currently, you are allowed to import %(display_size)s books every %(import_limit_reset)s days."
@@ -2871,11 +2945,16 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:26
+=======
+#: bookwyrm/templates/import/import.html:27
+>>>>>>> main
 #, python-format
 msgid "You have %(display_left)s left."
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:33
 #, python-format
 msgid "On average, recent imports have taken %(hours)s hours."
@@ -2970,6 +3049,92 @@ msgstr ""
 #: bookwyrm/templates/import/import.html:144
 #: bookwyrm/templates/import/import_user.html:183
 #: bookwyrm/templates/preferences/export-user.html:87
+=======
+#: bookwyrm/templates/import/import.html:34
+#, python-format
+msgid "On average, recent imports have taken %(hours)s hours."
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:38
+#, python-format
+msgid "On average, recent imports have taken %(minutes)s minutes."
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:53
+msgid "Data source:"
+msgstr "Sursa de date:"
+
+#: bookwyrm/templates/import/import.html:59
+msgid "Goodreads (CSV)"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:62
+msgid "Storygraph (CSV)"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:65
+msgid "LibraryThing (TSV)"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:68
+msgid "OpenLibrary (CSV)"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:71
+msgid "Calibre (CSV)"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:77
+msgid "You can download your Goodreads data from the <a href=\"https://www.goodreads.com/review/import\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Import/Export page</a> of your Goodreads account."
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:86
+msgid "Data file:"
+msgstr "Fișierul de date:"
+
+#: bookwyrm/templates/import/import.html:94
+msgid "Include reviews"
+msgstr "Includeți recenzii"
+
+#: bookwyrm/templates/import/import.html:99
+msgid "Privacy setting for imported reviews:"
+msgstr "Setare de confidențialitate pentru recenziile importate:"
+
+#: bookwyrm/templates/import/import.html:106
+#: bookwyrm/templates/import/import.html:108
+#: bookwyrm/templates/preferences/layout.html:43
+#: bookwyrm/templates/settings/federation/instance_blocklist.html:78
+msgid "Import"
+msgstr "Importați"
+
+#: bookwyrm/templates/import/import.html:109
+msgid "You've reached the import limit."
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:118
+msgid "Imports are temporarily disabled; thank you for your patience."
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:125
+msgid "Recent Imports"
+msgstr "Importuri recente"
+
+#: bookwyrm/templates/import/import.html:130
+#: bookwyrm/templates/settings/imports/imports.html:120
+msgid "Date Created"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:133
+msgid "Last Updated"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:136
+#: bookwyrm/templates/settings/imports/imports.html:129
+msgid "Items"
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:145
+>>>>>>> main
 msgid "No recent imports"
 msgstr "Niciun import recent"
 
@@ -3005,8 +3170,12 @@ msgid "Refresh"
 msgstr "Reîmprospătați"
 
 #: bookwyrm/templates/import/import_status.html:72
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:194
 #: bookwyrm/templates/settings/imports/imports.html:271
+=======
+#: bookwyrm/templates/settings/imports/imports.html:161
+>>>>>>> main
 msgid "Stop import"
 msgstr ""
 
@@ -3089,6 +3258,7 @@ msgstr "Vizionați recenzia importată"
 #: bookwyrm/templates/import/import_status.html:200
 msgid "Imported"
 msgstr "Importat"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/import/import_status.html:206
 msgid "Needs manual review"
@@ -3288,6 +3458,80 @@ msgstr "Contactați-vă adminul sau <a href='https://github.com/bookwyrm-social/
 msgid "Create an Account"
 msgstr "Creați un cont"
 
+=======
+
+#: bookwyrm/templates/import/import_status.html:206
+msgid "Needs manual review"
+msgstr "Necesită recenzie manuală"
+
+#: bookwyrm/templates/import/import_status.html:219
+msgid "Retry"
+msgstr "Încercați din nou"
+
+#: bookwyrm/templates/import/import_status.html:237
+msgid "This import is in an old format that is no longer supported. If you would like to troubleshoot missing items from this import, click the button below to update the import format."
+msgstr "Acest import este un format vechi care nu mai este suportat. Dacă doriți să reglați lipsurile din import, clic pe butonul de dedesubt pentru a actualiza formatul de importare."
+
+#: bookwyrm/templates/import/import_status.html:239
+msgid "Update import"
+msgstr "Actualizare import"
+
+#: bookwyrm/templates/import/manual_review.html:5
+#: bookwyrm/templates/import/troubleshoot.html:4
+msgid "Import Troubleshooting"
+msgstr "Depanare import"
+
+#: bookwyrm/templates/import/manual_review.html:21
+msgid "Approving a suggestion will permanently add the suggested book to your shelves and associate your reading dates, reviews, and ratings with that book."
+msgstr "Aprovatul unei sugestii va adăuga permanent cartea sugerată la rafturile dvs. și asocia datele dvs. de lectură, recenziile și ratingurile acelei cărți."
+
+#: bookwyrm/templates/import/manual_review.html:58
+#: bookwyrm/templates/lists/curate.html:71
+#: bookwyrm/templates/settings/link_domains/link_domains.html:76
+msgid "Approve"
+msgstr "Aprovați"
+
+#: bookwyrm/templates/import/manual_review.html:66
+msgid "Reject"
+msgstr "Respingeți"
+
+#: bookwyrm/templates/import/troubleshoot.html:7
+#: bookwyrm/templates/settings/imports/imports.html:138
+msgid "Failed items"
+msgstr "Elemente a căror importare a eșuat"
+
+#: bookwyrm/templates/import/troubleshoot.html:12
+msgid "Troubleshooting"
+msgstr "Depanare"
+
+#: bookwyrm/templates/import/troubleshoot.html:20
+msgid "Re-trying an import can fix missing items in cases such as:"
+msgstr "Reîncercarea unui import poate regla elemente lipsă în cazuri precum:"
+
+#: bookwyrm/templates/import/troubleshoot.html:23
+msgid "The book has been added to the instance since this import"
+msgstr "Cartea a fost adăugată instanței de când importul acesta"
+
+#: bookwyrm/templates/import/troubleshoot.html:24
+msgid "A transient error or timeout caused the external data source to be unavailable."
+msgstr "O problemă temporară sau o depășire a timpului limită a provocat ca sursa de date externă să fie indisponibilă."
+
+#: bookwyrm/templates/import/troubleshoot.html:25
+msgid "BookWyrm has been updated since this import with a bug fix"
+msgstr "BookWyrm a fost actualizat de la acest import cu reglări de buguri"
+
+#: bookwyrm/templates/import/troubleshoot.html:28
+msgid "Contact your admin or <a href='https://github.com/bookwyrm-social/bookwyrm/issues'>open an issue</a> if you are seeing unexpected failed items."
+msgstr "Contactați-vă adminul sau <a href='https://github.com/bookwyrm-social/bookwyrm/issues'>semnalați o problemă</a> dacă vedeți elemente a căror importare a eșuat neașteptat."
+
+#: bookwyrm/templates/landing/invite.html:4
+#: bookwyrm/templates/landing/invite.html:8
+#: bookwyrm/templates/landing/login.html:48
+#: bookwyrm/templates/landing/reactivate.html:41
+msgid "Create an Account"
+msgstr "Creați un cont"
+
+>>>>>>> main
 #: bookwyrm/templates/landing/invite.html:22
 msgid "Sorry! This invite code is no longer valid."
 msgstr "Ne pare rău! Acest cod de invitație nu mai este valabil."
@@ -4017,6 +4261,7 @@ msgid_plural "%(display_count)s new <a href=\"%(path)s\">reports</a> need modera
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] "%(display_count)s noi <a href=\"%(path)s\">rapoarte</a> au nevoie de moderare"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/notifications/items/status_preview.html:4
 #: bookwyrm/templates/snippets/status/content_status.html:62
@@ -4047,6 +4292,28 @@ msgstr ""
 #, python-format
 msgid "Your <a href=\"%(import_url)s\">user import</a> is complete."
 msgstr ""
+=======
+
+#: bookwyrm/templates/notifications/items/status_preview.html:4
+#: bookwyrm/templates/snippets/status/content_status.html:62
+msgid "Content warning"
+msgstr "Avertisment de conținut"
+
+#: bookwyrm/templates/notifications/items/update.html:16
+#, python-format
+msgid "has changed the privacy level for <a href=\"%(group_path)s\">%(group_name)s</a>"
+msgstr "a schimbat nivelul de confidențialitate pentru <a href=\"%(group_path)s\">%(group_name)s</a>"
+
+#: bookwyrm/templates/notifications/items/update.html:20
+#, python-format
+msgid "has changed the name of <a href=\"%(group_path)s\">%(group_name)s</a>"
+msgstr "a schimbat numele pentru <a href=\"%(group_path)s\">%(group_name)s</a>"
+
+#: bookwyrm/templates/notifications/items/update.html:24
+#, python-format
+msgid "has changed the description of <a href=\"%(group_path)s\">%(group_name)s</a>"
+msgstr "a schimbat descrierea <a href=\"%(group_path)s\">%(group_name)s</a>"
+>>>>>>> main
 
 #: bookwyrm/templates/notifications/notifications_page.html:19
 msgid "Delete notifications"
@@ -4291,7 +4558,11 @@ msgstr ""
 
 #: bookwyrm/templates/preferences/blocks.html:4
 #: bookwyrm/templates/preferences/blocks.html:7
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/layout.html:62
+=======
+#: bookwyrm/templates/preferences/layout.html:54
+>>>>>>> main
 msgid "Blocked Users"
 msgstr "Utilizatori blocați"
 
@@ -4426,11 +4697,26 @@ msgstr "Confidențialitatea implicită a postărilor:"
 msgid "Looking for shelf privacy? You can set a separate visibility level for each of your shelves. Go to <a href=\"%(path)s\">Your Books</a>, pick a shelf from the tab bar, and click \"Edit shelf.\""
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/export-user.html:5
 #: bookwyrm/templates/preferences/export-user.html:8
 #: bookwyrm/templates/preferences/layout.html:55
 msgid "Export BookWyrm Account"
 msgstr ""
+=======
+#: bookwyrm/templates/preferences/export.html:4
+#: bookwyrm/templates/preferences/export.html:7
+msgid "CSV Export"
+msgstr "Export CSV"
+
+#: bookwyrm/templates/preferences/export.html:13
+msgid "Your export will include all the books on your shelves, books you have reviewed, and books with reading activity."
+msgstr "Exportul dvs. va include toate cărțile de pe etajerele dvs., cărți pe care le-ați revizuit și cărți cu activitate de lectură."
+
+#: bookwyrm/templates/preferences/export.html:20
+msgid "Download file"
+msgstr "Descărcați fișierul"
+>>>>>>> main
 
 #: bookwyrm/templates/preferences/export-user.html:14
 msgid "You can create an export file here. This will allow you to migrate your data to another BookWyrm account."
@@ -4503,7 +4789,15 @@ msgstr ""
 msgid "Data"
 msgstr "Date"
 
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/layout.html:58
+=======
+#: bookwyrm/templates/preferences/layout.html:47
+msgid "CSV export"
+msgstr "Export CSV"
+
+#: bookwyrm/templates/preferences/layout.html:50
+>>>>>>> main
 msgid "Relationships"
 msgstr "Relații"
 
@@ -4994,8 +5288,12 @@ msgid "Active Tasks"
 msgstr ""
 
 #: bookwyrm/templates/settings/celery.html:131
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:146
 #: bookwyrm/templates/settings/imports/imports.html:236
+=======
+#: bookwyrm/templates/settings/imports/imports.html:113
+>>>>>>> main
 msgid "ID"
 msgstr ""
 
@@ -5393,6 +5691,7 @@ msgid "No instances found"
 msgstr "N-a fost găsită nicio instanță"
 
 #: bookwyrm/templates/settings/imports/complete_import_modal.html:4
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/complete_user_import_modal.html:4
 msgid "Stop import?"
 msgstr ""
@@ -5401,6 +5700,11 @@ msgstr ""
 msgid "This action will stop the user import before it is complete and cannot be un-done"
 msgstr ""
 
+=======
+msgid "Stop import?"
+msgstr ""
+
+>>>>>>> main
 #: bookwyrm/templates/settings/imports/imports.html:19
 msgid "Disable starting new imports"
 msgstr ""
@@ -5413,6 +5717,7 @@ msgstr ""
 msgid "While imports are disabled, users will not be allowed to start new imports, but existing imports will not be affected."
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:32
 msgid "This setting prevents both book imports and user imports."
 msgstr ""
@@ -5512,6 +5817,70 @@ msgstr ""
 
 #: bookwyrm/templates/settings/imports/imports.html:215
 msgid "User Imports"
+=======
+#: bookwyrm/templates/settings/imports/imports.html:36
+msgid "Disable imports"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:50
+msgid "Users are currently unable to start new imports"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:55
+msgid "Enable imports"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:63
+msgid "Limit the amount of imports"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:74
+msgid "Some users might try to import a large number of books, which you want to limit."
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:75
+msgid "Set the value to 0 to not enforce any limit."
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:78
+msgid "Set import limit to"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:80
+msgid "books every"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:82
+msgid "days."
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:86
+msgid "Set limit"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:102
+msgid "Completed"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:116
+msgid "User"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:125
+msgid "Date Updated"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:132
+msgid "Pending items"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:135
+msgid "Successful items"
+msgstr ""
+
+#: bookwyrm/templates/settings/imports/imports.html:170
+msgid "No matching imports found."
+>>>>>>> main
 msgstr ""
 
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:4
@@ -6327,15 +6696,27 @@ msgstr "Creați un raft"
 msgid "Edit Shelf"
 msgstr "Editați raftul"
 
+<<<<<<< HEAD
+=======
+#: bookwyrm/templates/shelf/shelf.html:26
+#: bookwyrm/templates/user/relationships/followers.html:18
+#: bookwyrm/templates/user/relationships/following.html:18
+msgid "User profile"
+msgstr "Profilul utilizatorului"
+
+>>>>>>> main
 #: bookwyrm/templates/shelf/shelf.html:41
 #: bookwyrm/templatetags/shelf_tags.py:13 bookwyrm/views/shelf/shelf.py:53
 msgid "All books"
 msgstr "Toate cărțile"
 
+<<<<<<< HEAD
 #: bookwyrm/templates/shelf/shelf.html:66
 msgid "Import Books"
 msgstr "Importați cărți"
 
+=======
+>>>>>>> main
 #: bookwyrm/templates/shelf/shelf.html:99
 #, python-format
 msgid "%(formatted_count)s book"

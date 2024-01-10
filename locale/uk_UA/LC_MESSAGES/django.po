@@ -2,8 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-01-02 03:27+0000\n"
 "PO-Revision-Date: 2024-01-04 15:51\n"
+=======
+"POT-Creation-Date: 2023-12-30 23:52+0000\n"
+"PO-Revision-Date: 2024-01-02 03:11\n"
+>>>>>>> main
 "Last-Translator: Mouse Reeve <mousereeve@riseup.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -54,6 +59,7 @@ msgstr "Пароль не збігається"
 msgid "Incorrect Password"
 msgstr "Неправильний Пароль"
 
+<<<<<<< HEAD
 #: bookwyrm/forms/forms.py:58
 msgid "Reading finish date cannot be before start date."
 msgstr "Дата прочитання не може бути до дати початку читання."
@@ -67,6 +73,21 @@ msgid "Reading stopped date cannot be in the future."
 msgstr "Дата зупинки читання не може бути в майбутньому."
 
 #: bookwyrm/forms/forms.py:78
+=======
+#: bookwyrm/forms/forms.py:54
+msgid "Reading finish date cannot be before start date."
+msgstr "Дата прочитання не може бути до дати початку читання."
+
+#: bookwyrm/forms/forms.py:59
+msgid "Reading stopped date cannot be before start date."
+msgstr "Дата зупинки читання не може бути раніше дати початку."
+
+#: bookwyrm/forms/forms.py:67
+msgid "Reading stopped date cannot be in the future."
+msgstr "Дата зупинки читання не може бути в майбутньому."
+
+#: bookwyrm/forms/forms.py:74
+>>>>>>> main
 msgid "Reading finished date cannot be in the future."
 msgstr "Дата прочитання не може бути в майбутньому."
 
@@ -146,8 +167,12 @@ msgid "Automatically generated report"
 msgstr "Автоматично згенерований звіт"
 
 #: bookwyrm/models/base_model.py:18 bookwyrm/models/import_job.py:48
+<<<<<<< HEAD
 #: bookwyrm/models/job.py:18 bookwyrm/models/link.py:72
 #: bookwyrm/templates/import/import_status.html:214
+=======
+#: bookwyrm/models/link.py:72 bookwyrm/templates/import/import_status.html:214
+>>>>>>> main
 #: bookwyrm/templates/settings/link_domains/link_domains.html:19
 msgid "Pending"
 msgstr "Перевіряється"
@@ -224,6 +249,7 @@ msgstr "ім'я користувача"
 #: bookwyrm/models/fields.py:203
 msgid "A user with that username already exists."
 msgstr "Користувач із таким ім'ям вже існує."
+<<<<<<< HEAD
 
 #: bookwyrm/models/fields.py:222
 #: bookwyrm/templates/snippets/privacy-icons.html:3
@@ -296,6 +322,69 @@ msgstr "Не вдалося знайти відповідну книгу"
 msgid "Failed"
 msgstr ""
 
+=======
+
+#: bookwyrm/models/fields.py:222
+#: bookwyrm/templates/snippets/privacy-icons.html:3
+#: bookwyrm/templates/snippets/privacy-icons.html:4
+#: bookwyrm/templates/snippets/privacy_select.html:11
+#: bookwyrm/templates/snippets/privacy_select_no_followers.html:11
+msgid "Public"
+msgstr "Бачуть усі"
+
+#: bookwyrm/models/fields.py:223
+#: bookwyrm/templates/snippets/privacy-icons.html:7
+#: bookwyrm/templates/snippets/privacy-icons.html:8
+#: bookwyrm/templates/snippets/privacy_select.html:14
+#: bookwyrm/templates/snippets/privacy_select_no_followers.html:14
+msgid "Unlisted"
+msgstr "Тільки по посиланню"
+
+#: bookwyrm/models/fields.py:224
+#: bookwyrm/templates/snippets/privacy_select.html:17
+#: bookwyrm/templates/user/relationships/followers.html:6
+#: bookwyrm/templates/user/relationships/followers.html:11
+#: bookwyrm/templates/user/relationships/followers.html:21
+#: bookwyrm/templates/user/relationships/layout.html:11
+msgid "Followers"
+msgstr "Бачать тільки підписники"
+
+#: bookwyrm/models/fields.py:225
+#: bookwyrm/templates/snippets/create_status/post_options_block.html:6
+#: bookwyrm/templates/snippets/privacy-icons.html:15
+#: bookwyrm/templates/snippets/privacy-icons.html:16
+#: bookwyrm/templates/snippets/privacy_select.html:20
+#: bookwyrm/templates/snippets/privacy_select_no_followers.html:17
+msgid "Private"
+msgstr "Не бачить ніхто"
+
+#: bookwyrm/models/import_job.py:49 bookwyrm/templates/import/import.html:174
+#: bookwyrm/templates/settings/imports/imports.html:98
+#: bookwyrm/templates/snippets/user_active_tag.html:8
+msgid "Active"
+msgstr "В процесі"
+
+#: bookwyrm/models/import_job.py:50 bookwyrm/templates/import/import.html:172
+msgid "Complete"
+msgstr "Завершено"
+
+#: bookwyrm/models/import_job.py:51
+msgid "Stopped"
+msgstr "Зупинено"
+
+#: bookwyrm/models/import_job.py:84 bookwyrm/models/import_job.py:92
+msgid "Import stopped"
+msgstr "Імпорт зупинено"
+
+#: bookwyrm/models/import_job.py:356 bookwyrm/models/import_job.py:381
+msgid "Error loading book"
+msgstr "Помилка при завантаженні книги"
+
+#: bookwyrm/models/import_job.py:365
+msgid "Could not find a match for book"
+msgstr "Не вдалося знайти відповідну книгу"
+
+>>>>>>> main
 #: bookwyrm/models/link.py:51
 msgid "Free"
 msgstr "Безплатно"
@@ -371,7 +460,11 @@ msgstr "Рецензії"
 msgid "Comments"
 msgstr "Коментарі"
 
+<<<<<<< HEAD
 #: bookwyrm/models/user.py:35 bookwyrm/templates/import/import_user.html:139
+=======
+#: bookwyrm/models/user.py:35
+>>>>>>> main
 msgid "Quotations"
 msgstr "Цитати"
 
@@ -438,6 +531,7 @@ msgstr "Suomi (Фінська)"
 #: bookwyrm/settings.py:322
 msgid "Français (French)"
 msgstr "Français (Французька)"
+<<<<<<< HEAD
 
 #: bookwyrm/settings.py:323
 msgid "Lietuvių (Lithuanian)"
@@ -487,6 +581,57 @@ msgstr "繁體中文 (Традиційна китайська)"
 msgid "Oh no!"
 msgstr "О, ні!"
 
+=======
+
+#: bookwyrm/settings.py:323
+msgid "Lietuvių (Lithuanian)"
+msgstr "Lietuvių (Литовська)"
+
+#: bookwyrm/settings.py:324
+msgid "Nederlands (Dutch)"
+msgstr "Nederlands (Нідерландська)"
+
+#: bookwyrm/settings.py:325
+msgid "Norsk (Norwegian)"
+msgstr "Norsk (Норвезька)"
+
+#: bookwyrm/settings.py:326
+msgid "Polski (Polish)"
+msgstr "Polski (Польська)"
+
+#: bookwyrm/settings.py:327
+msgid "Português do Brasil (Brazilian Portuguese)"
+msgstr "Português do Brasil (Бразильська португальська)"
+
+#: bookwyrm/settings.py:328
+msgid "Português Europeu (European Portuguese)"
+msgstr "Português Europeu (Європейська португальська)"
+
+#: bookwyrm/settings.py:329
+msgid "Română (Romanian)"
+msgstr "Română (Румунська)"
+
+#: bookwyrm/settings.py:330
+msgid "Svenska (Swedish)"
+msgstr "Svenska (Шведська)"
+
+#: bookwyrm/settings.py:331
+msgid "Українська (Ukrainian)"
+msgstr ""
+
+#: bookwyrm/settings.py:332
+msgid "简体中文 (Simplified Chinese)"
+msgstr "简体中文 (Спрощена китайська)"
+
+#: bookwyrm/settings.py:333
+msgid "繁體中文 (Traditional Chinese)"
+msgstr "繁體中文 (Традиційна китайська)"
+
+#: bookwyrm/templates/403.html:5
+msgid "Oh no!"
+msgstr ""
+
+>>>>>>> main
 #: bookwyrm/templates/403.html:9 bookwyrm/templates/landing/invite.html:21
 msgid "Permission Denied"
 msgstr "Немає Дозволу"
@@ -494,11 +639,19 @@ msgstr "Немає Дозволу"
 #: bookwyrm/templates/403.html:11
 #, python-format
 msgid "You do not have permission to view this page or perform this action. Your user permission level is <code>%(level)s</code>."
+<<<<<<< HEAD
 msgstr "У Вас немає дозволу на перегляд цієї сторінки або виконання цієї дії. Ваш рівень дозволів користувача <code>%(level)s</code>."
 
 #: bookwyrm/templates/403.html:15
 msgid "If you think you should have access, please speak to your BookWyrm server administrator."
 msgstr "Якщо ви вважаєте, що вам слід отримати доступ, будь ласка, зверніться до адміністратора вашого сервера Bookrm."
+=======
+msgstr ""
+
+#: bookwyrm/templates/403.html:15
+msgid "If you think you should have access, please speak to your BookWyrm server administrator."
+msgstr ""
+>>>>>>> main
 
 #: bookwyrm/templates/404.html:4 bookwyrm/templates/404.html:8
 msgid "Not Found"
@@ -510,18 +663,30 @@ msgstr "Вказана сторінка не існує!"
 
 #: bookwyrm/templates/413.html:4 bookwyrm/templates/413.html:8
 msgid "File too large"
+<<<<<<< HEAD
 msgstr "Файл завеликий"
 
 #: bookwyrm/templates/413.html:9
 msgid "The file you are uploading is too large."
 msgstr "Файл, який ви завантажуєте, завеликий."
+=======
+msgstr ""
+
+#: bookwyrm/templates/413.html:9
+msgid "The file you are uploading is too large."
+msgstr ""
+>>>>>>> main
 
 #: bookwyrm/templates/413.html:11
 msgid "\n"
 "        You you can try using a smaller file, or ask your BookWyrm server administrator to increase the <code>DATA_UPLOAD_MAX_MEMORY_SIZE</code> setting.\n"
 "        "
+<<<<<<< HEAD
 msgstr "\n"
 "Ви можете спробувати використати менший файл або попросити адміністратора сервера BookWyrm збільшити параметр <code>DATA_UPLOAD_MAX_MEMORY_SIZE</code>.        "
+=======
+msgstr ""
+>>>>>>> main
 
 #: bookwyrm/templates/500.html:4
 msgid "Oops!"
@@ -985,7 +1150,10 @@ msgstr "Зберегти"
 #: bookwyrm/templates/search/barcode_modal.html:43
 #: bookwyrm/templates/settings/federation/instance.html:106
 #: bookwyrm/templates/settings/imports/complete_import_modal.html:16
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/complete_user_import_modal.html:16
+=======
+>>>>>>> main
 #: bookwyrm/templates/settings/link_domains/edit_domain_modal.html:22
 #: bookwyrm/templates/snippets/report_modal.html:52
 msgid "Cancel"
@@ -1003,7 +1171,10 @@ msgstr "Процес завантаження даних з'єднається �
 #: bookwyrm/templates/landing/password_reset.html:52
 #: bookwyrm/templates/preferences/2fa.html:77
 #: bookwyrm/templates/settings/imports/complete_import_modal.html:19
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/complete_user_import_modal.html:19
+=======
+>>>>>>> main
 #: bookwyrm/templates/snippets/remove_from_group_button.html:17
 msgid "Confirm"
 msgstr "Підтвердити"
@@ -1507,12 +1678,18 @@ msgid "Domain"
 msgstr "Домен"
 
 #: bookwyrm/templates/book/file_links/edit_links.html:36
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:138
 #: bookwyrm/templates/import/import_status.html:134
 #: bookwyrm/templates/import/import_user.html:177
 #: bookwyrm/templates/preferences/export-user.html:78
 #: bookwyrm/templates/settings/announcements/announcements.html:37
 #: bookwyrm/templates/settings/imports/imports.html:255
+=======
+#: bookwyrm/templates/import/import.html:139
+#: bookwyrm/templates/import/import_status.html:134
+#: bookwyrm/templates/settings/announcements/announcements.html:37
+>>>>>>> main
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:48
 #: bookwyrm/templates/settings/invites/status_filter.html:5
 #: bookwyrm/templates/settings/themes.html:111
@@ -1524,8 +1701,12 @@ msgstr "Статус"
 #: bookwyrm/templates/book/file_links/edit_links.html:37
 #: bookwyrm/templates/settings/announcements/announcements.html:41
 #: bookwyrm/templates/settings/federation/instance.html:112
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:174
 #: bookwyrm/templates/settings/imports/imports.html:253
+=======
+#: bookwyrm/templates/settings/imports/imports.html:141
+>>>>>>> main
 #: bookwyrm/templates/settings/reports/report_links_table.html:6
 #: bookwyrm/templates/settings/themes.html:108
 msgid "Actions"
@@ -2586,6 +2767,7 @@ msgstr "Сканер штрих-кодів"
 
 #: bookwyrm/templates/guided_tour/home.html:102
 msgid "Use the <strong>Lists</strong>, <strong>Discover</strong>, and <strong>Your Books</strong> links to discover reading suggestions and the latest happenings on this server, or to see your catalogued books!"
+<<<<<<< HEAD
 msgstr "Використовуйте <strong>Списки</strong>, <strong>Відкрий для себе</strong> і <strong>Ваші книги</strong> посилання для пошуку пропозицій щодо читання і останніх подій на цьому сервері, або перегляду ваших каталожних книг!"
 
 #: bookwyrm/templates/guided_tour/home.html:103
@@ -2863,8 +3045,288 @@ msgstr "Дивіться відмічені статуси у локальній
 #: bookwyrm/templates/hashtag.html:25
 msgid "No activities for this hashtag yet!"
 msgstr "Поки що ніхто не використовував цей хештег!"
+=======
+msgstr ""
+>>>>>>> main
+
+#: bookwyrm/templates/guided_tour/home.html:103
+msgid "Navigation Bar"
+msgstr "Панель навігації"
+
+#: bookwyrm/templates/guided_tour/home.html:126
+msgid "Books on your reading status shelves will be shown here."
+msgstr "Книги з полиць статусу читання будуть показуватися тут."
+
+#: bookwyrm/templates/guided_tour/home.html:151
+msgid "Updates from people you are following will appear in your <strong>Home</strong> timeline.<br><br>The <strong>Books</strong> tab shows activity from anyone, related to your books."
+msgstr "Оновлення від користувачів, за якими ви слідкуєте, будуть з'являтися у вашій <strong>Головній</strong> стрічці.<br><br>Вкладинка <strong>Книги</strong> міститиме активність від будь-кого, пов'язаного з вашими книгами."
+
+#: bookwyrm/templates/guided_tour/home.html:152
+msgid "Timelines"
+msgstr "Стрічки"
+
+#: bookwyrm/templates/guided_tour/home.html:176
+msgid "The bell will light up when you have a new notification. When it does, click on it to find out what exciting thing has happened!"
+msgstr "Дзвіночок підсвітиться при новому сповіщенні. Коли це станеться, натисніть на нього щоб дізнатися що прикольного сталося!"
+
+#: bookwyrm/templates/guided_tour/home.html:177
+#: bookwyrm/templates/layout.html:77 bookwyrm/templates/layout.html:107
+#: bookwyrm/templates/layout.html:108
+#: bookwyrm/templates/notifications/notifications_page.html:5
+#: bookwyrm/templates/notifications/notifications_page.html:10
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: bookwyrm/templates/guided_tour/home.html:200
+msgid "Your profile, user directory, direct messages, and settings can be accessed by clicking on your name in the menu here."
+msgstr ""
+
+#: bookwyrm/templates/guided_tour/home.html:200
+msgid "Try selecting <strong>Profile</strong> from the drop down menu to continue the tour."
+msgstr "Спробуйте вибрати <strong>Профіль</strong> з випадаючого меню, щоб продовжити екскурсію."
+
+#: bookwyrm/templates/guided_tour/home.html:201
+msgid "Profile and settings menu"
+msgstr "Меню профілю та налаштувань"
+
+#: bookwyrm/templates/guided_tour/lists.html:13
+msgid "This is the lists page where you can discover book lists created by any user. A List is a collection of books, similar to a shelf."
+msgstr "На цій сторінці ви можете знайти списки книг, створені будь-яким користувачем. Список - це набір книг, схожий на полицю."
+
+#: bookwyrm/templates/guided_tour/lists.html:13
+msgid "Shelves are for organising books for yourself, whereas Lists are generally for sharing with others."
+msgstr "Полиці призначені для організації книг для себе, тоді як Списки, як правило, для обміну з іншими."
+
+#: bookwyrm/templates/guided_tour/lists.html:34
+msgid "Let's see how to create a new list."
+msgstr "Подивімось, як створити новий список."
+
+#: bookwyrm/templates/guided_tour/lists.html:34
+msgid "Click the <strong>Create List</strong> button, then <strong>Next</strong> to continue the tour"
+msgstr "Натисніть на кнопку <strong>Створити Список</strong>, а потім <strong>Далі</strong> для продовження екскурсії"
+
+#: bookwyrm/templates/guided_tour/lists.html:35
+#: bookwyrm/templates/guided_tour/lists.html:59
+msgid "Creating a new list"
+msgstr "Створення нового списку"
+
+#: bookwyrm/templates/guided_tour/lists.html:58
+msgid "You must give your list a name and can optionally give it a description to help other people understand what your list is about."
+msgstr "Ви повинні дати своєму списку ім'я та, за бажанням, опис, щоб допомогти іншим людям зрозуміти, про що ваш список."
+
+#: bookwyrm/templates/guided_tour/lists.html:81
+msgid "Choose who can see your list here. List privacy options work just like we saw when posting book reviews. This is a common pattern throughout Bookwyrm."
+msgstr "Виберіть, хто може бачити ваш список. Опції конфіденційності списків працюють так само, як і для рецензій. Це типовий підхід усюди в BookWyrm."
+
+#: bookwyrm/templates/guided_tour/lists.html:82
+msgid "List privacy"
+msgstr "Конфіденційність списків"
+
+#: bookwyrm/templates/guided_tour/lists.html:105
+msgid "You can also decide how your list is to be curated - only by you, by anyone, or by a group."
+msgstr "Ви також можете вирішити, ким ваш список буде куруватися - тільки вами, ким завгодно, або групою."
+
+#: bookwyrm/templates/guided_tour/lists.html:106
+msgid "List curation"
+msgstr "Кураторство списку"
+
+#: bookwyrm/templates/guided_tour/lists.html:128
+msgid "Next in our tour we will explore Groups!"
+msgstr "Далі в екскурсії ми вивчатимемо Групи!"
+
+#: bookwyrm/templates/guided_tour/lists.html:129
+msgid "Next: Groups"
+msgstr "Далі: Групи"
+
+#: bookwyrm/templates/guided_tour/lists.html:143
+msgid "Take me there"
+msgstr "Перейти"
+
+#: bookwyrm/templates/guided_tour/search.html:16
+msgid "If the book you are looking for is available on a remote catalogue such as Open Library, click on <strong>Import book</strong>."
+msgstr "Якщо книга, яку ви шукаєте, доступна на віддаленому каталозі, наприклад Open Library, натисніть на <strong>Імпортувати книгу</strong>."
+
+#: bookwyrm/templates/guided_tour/search.html:17
+#: bookwyrm/templates/guided_tour/search.html:44
+msgid "Searching"
+msgstr "Пошук"
+
+#: bookwyrm/templates/guided_tour/search.html:43
+msgid "If the book you are looking for is already on this Bookwyrm instance, you can click on the title to go to the book's page."
+msgstr "Якщо книжка, яку ви шукаєте, вже знаходиться на цьому інстансі Bookwyrm, ви можете натиснути на заголовок, щоб перейти на сторінку книги."
+
+#: bookwyrm/templates/guided_tour/search.html:71
+msgid "If the book you are looking for is not listed, try loading more records from other sources like Open Library or Inventaire."
+msgstr "Якщо книжки, яку ви шукаєте, немає в списку, спробуйте завантажити більше записів з інших джерел, таких як Open Library чи Inventaire."
+
+#: bookwyrm/templates/guided_tour/search.html:72
+msgid "Load more records"
+msgstr "Завантажити більше записів"
+
+#: bookwyrm/templates/guided_tour/search.html:98
+msgid "If your book is not in the results, try adjusting your search terms."
+msgstr "Якщо вашої книги немає в результатах, спробуйте змінити пошуковий запит."
+
+#: bookwyrm/templates/guided_tour/search.html:99
+msgid "Search again"
+msgstr "Шукати знов"
+
+#: bookwyrm/templates/guided_tour/search.html:121
+msgid "If you still can't find your book, you can add a record manually."
+msgstr "Якщо ви все ще не можете знайти свою книгу, ви можете додати запис вручну."
+
+#: bookwyrm/templates/guided_tour/search.html:122
+msgid "Add a record manually"
+msgstr "Створення запису вручну"
+
+#: bookwyrm/templates/guided_tour/search.html:147
+msgid "Import, manually add, or view an existing book to continue the tour."
+msgstr "Імпортуйте, додайте вручну або перегляньте наявну книгу для продовження екскурсії."
+
+#: bookwyrm/templates/guided_tour/search.html:148
+msgid "Continue the tour"
+msgstr "Продовжити екскурсію"
+
+#: bookwyrm/templates/guided_tour/user_books.html:10
+msgid "This is the page where your books are listed, organised into shelves."
+msgstr "Це сторінка з переліком ваших книг, які організовані в полиці."
+
+#: bookwyrm/templates/guided_tour/user_books.html:11
+#: bookwyrm/templates/user/books_header.html:4
+msgid "Your books"
+msgstr "Ваші книги"
+
+#: bookwyrm/templates/guided_tour/user_books.html:31
+msgid "<strong>To Read</strong>, <strong>Currently Reading</strong>, <strong>Read</strong>, and <strong>Stopped Reading</strong> are default shelves. When you change the reading status of a book it will automatically be moved to the matching shelf. A book can only be on one default shelf at a time."
+msgstr "<strong>Прочитати</strong>, <strong>Зараз Читаю</strong>, <strong>Прочитано</strong>, і <strong>Читання Зупинено</strong> - це стандартні полиці. При зміні статусу читання книги вона автоматично буде перенесена в відповідну полицю. Книжка може бути лише на одній стандартній полиці одночасно."
+
+#: bookwyrm/templates/guided_tour/user_books.html:32
+msgid "Reading status shelves"
+msgstr "Полиці статусу читання"
+
+#: bookwyrm/templates/guided_tour/user_books.html:55
+msgid "You can create additional custom shelves to organise your books. A book on a custom shelf can be on any number of other shelves simultaneously, including one of the default reading status shelves"
+msgstr "Ви можете організувати ваші книжки створивши додаткові власні полиці. Книга на власній полиці може одночасно бути на будь-яких інших полицях, в тому числі стандартних (Прочитати, Читаю Зараз, і. т. д.)"
+
+#: bookwyrm/templates/guided_tour/user_books.html:56
+msgid "Adding custom shelves."
+msgstr "Додавання власних полиць."
+
+#: bookwyrm/templates/guided_tour/user_books.html:78
+msgid "If you have an export file from another service like Goodreads or LibraryThing, you can import it here."
+msgstr "Якщо у вас є файл експорту з іншого сервісу, наприклад Goodreads чи LibraryThing, ви можете імпортувати його тут."
+
+#: bookwyrm/templates/guided_tour/user_books.html:79
+msgid "Import from another service"
+msgstr "Імпорт з іншого сервісу"
+
+#: bookwyrm/templates/guided_tour/user_books.html:101
+msgid "Now that we've explored book shelves, let's take a look at a related concept: book lists!"
+msgstr "Тепер, коли ми дослідили книжкові полиці, погляньмо на пов'язану концепцію: списки книг!"
+
+#: bookwyrm/templates/guided_tour/user_books.html:101
+msgid "Click on the <strong>Lists</strong> link here to continue the tour."
+msgstr "Натисніть на <strong>Списки</strong> тут, щоб продовжити екскурсію."
+
+#: bookwyrm/templates/guided_tour/user_groups.html:10
+msgid "You can create or join a group with other users. Groups can share group-curated book lists, and in future will be able to do other things."
+msgstr "Ви можете створити або приєднатися до групи з іншими користувачами. Групи можуть поширювати куровані списки, і в майбутньому зможуть робити інші речі."
+
+#: bookwyrm/templates/guided_tour/user_groups.html:11
+#: bookwyrm/templates/guided_tour/user_profile.html:55
+#: bookwyrm/templates/user/groups.html:6 bookwyrm/templates/user/layout.html:95
+msgid "Groups"
+msgstr "Групи"
+
+#: bookwyrm/templates/guided_tour/user_groups.html:31
+msgid "Let's create a new group!"
+msgstr "Створімо нову групу!"
+
+#: bookwyrm/templates/guided_tour/user_groups.html:31
+msgid "Click the <strong>Create group</strong> button, then <strong>Next</strong> to continue the tour"
+msgstr "Натисніть на кнопку <strong>Створити групу</strong>, а потім <strong>Далі</strong> для продовження туру"
+
+#: bookwyrm/templates/guided_tour/user_groups.html:55
+msgid "Give your group a name and describe what it is about. You can make user groups for any purpose - a reading group, a bunch of friends, whatever!"
+msgstr "Дайте назву вашій групі та опишіть її. Ви можете створити групи користувачів з будь-якої мети - група для читання, групи друзів, що завгодно!"
+
+#: bookwyrm/templates/guided_tour/user_groups.html:56
+msgid "Creating a group"
+msgstr "Створення групи"
+
+#: bookwyrm/templates/guided_tour/user_groups.html:78
+msgid "Groups have privacy settings just like posts and lists, except that group privacy cannot be <strong>Followers</strong>."
+msgstr "Групи мають налаштування конфіденційності, як і публікації та списки, за винятком того, що конфіденційність групи не може бути <strong>Підписникам</strong>."
+
+#: bookwyrm/templates/guided_tour/user_groups.html:79
+msgid "Group visibility"
+msgstr "Видимість групи"
+
+#: bookwyrm/templates/guided_tour/user_groups.html:102
+msgid "Once you're happy with how everything is set up, click the <strong>Save</strong> button to create your new group."
+msgstr "Якщо ви задоволені тим, як все налаштовано, натисніть кнопку <strong>Зберегти</strong>, щоб створити нову групу."
+
+#: bookwyrm/templates/guided_tour/user_groups.html:102
+msgid "Create and save a group to continue the tour."
+msgstr "Створити та зберегти групу для продовження туру."
+
+#: bookwyrm/templates/guided_tour/user_groups.html:103
+msgid "Save your group"
+msgstr "Зберегти свою групу"
+
+#: bookwyrm/templates/guided_tour/user_profile.html:10
+msgid "This is your user profile. All your latest activities will be listed here. Other Bookwyrm users can see parts of this page too - what they can see depends on your privacy settings."
+msgstr "Це ваш профіль користувача. Усі ваші останні дії будуть перераховані тут. Інші користувачі Bookwyrm можуть також бачити частини цієї сторінки - те, що вони можуть бачити, залежить від ваших налаштувань конфіденційності."
+
+#: bookwyrm/templates/guided_tour/user_profile.html:11
+#: bookwyrm/templates/user/layout.html:20 bookwyrm/templates/user/user.html:14
+msgid "User Profile"
+msgstr "Профіль Користувача"
+
+#: bookwyrm/templates/guided_tour/user_profile.html:31
+msgid "This tab shows everything you have read towards your annual reading goal, or allows you to set one. You don't have to set a reading goal if that's not your thing!"
+msgstr "Ця вкладка показує все, що ви прочитали у рамках річної мети читання, або дозволяє її встановити. Це не обов'язково. Тільки якщо вам таке подобається."
+
+#: bookwyrm/templates/guided_tour/user_profile.html:32
+#: bookwyrm/templates/user/goal.html:6 bookwyrm/templates/user/layout.html:89
+msgid "Reading Goal"
+msgstr "Мета Читання"
+
+#: bookwyrm/templates/guided_tour/user_profile.html:54
+msgid "Here you can see your groups, or create a new one. A group brings together Bookwyrm users and allows them to curate lists together."
+msgstr "Тут ви можете переглянути свої групи, або створити нову. Група об'єднує користувачів Bookwyrm і дозволяє керувати списками разом."
+
+#: bookwyrm/templates/guided_tour/user_profile.html:77
+msgid "You can see your lists, or create a new one, here. A list is a collection of books that have something in common."
+msgstr "Ви можете переглянути списки або створити новий. Список - це колекція книг, що мають щось спільне."
+
+#: bookwyrm/templates/guided_tour/user_profile.html:100
+msgid "The Books tab shows your book shelves. We'll explore this later in the tour."
+msgstr "Вкладка Книги показує ваші книжкові полиці. Ми дослідимо це пізніше в екскурсії."
+
+#: bookwyrm/templates/guided_tour/user_profile.html:123
+msgid "Now you understand the basics of your profile page, let's add a book to your shelves."
+msgstr "Тепер, коли ви розібралися у сторінці вашого профілю, нумо додамо книгу до ваших полиць."
+
+#: bookwyrm/templates/guided_tour/user_profile.html:123
+msgid "Search for a title or author to continue the tour."
+msgstr "Пошукайте назву книги або автора, щоб продовжити екскурсію."
+
+#: bookwyrm/templates/guided_tour/user_profile.html:124
+msgid "Find a book"
+msgstr "Пошук книг"
+
+#: bookwyrm/templates/hashtag.html:12
+#, python-format
+msgid "See tagged statuses in the local %(site_name)s community"
+msgstr "Дивіться відмічені статуси у локальній спільноті %(site_name)s"
+
+#: bookwyrm/templates/hashtag.html:25
+msgid "No activities for this hashtag yet!"
+msgstr "Поки що ніхто не використовував цей хештег!"
 
 #: bookwyrm/templates/import/import.html:5
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:6
 #: bookwyrm/templates/preferences/layout.html:43
 msgid "Import Book List"
@@ -2875,6 +3337,18 @@ msgid "Not a valid CSV file"
 msgstr "Некоректний CSV-файл"
 
 #: bookwyrm/templates/import/import.html:20
+=======
+#: bookwyrm/templates/import/import.html:9
+#: bookwyrm/templates/shelf/shelf.html:66
+msgid "Import Books"
+msgstr "Імпортувати Книги"
+
+#: bookwyrm/templates/import/import.html:13
+msgid "Not a valid CSV file"
+msgstr "Некоректний CSV-файл"
+
+#: bookwyrm/templates/import/import.html:21
+>>>>>>> main
 #, python-format
 msgid "Currently, you are allowed to import %(display_size)s books every %(import_limit_reset)s day."
 msgid_plural "Currently, you are allowed to import %(display_size)s books every %(import_limit_reset)s days."
@@ -2883,11 +3357,16 @@ msgstr[1] "Наразі ви можете імпортувати тільки %(
 msgstr[2] "Наразі ви можете імпортувати тільки %(display_size)s книг впродовж кожних %(import_limit_reset)s днів."
 msgstr[3] "Наразі ви можете імпортувати тільки %(display_size)s книг впродовж кожних %(import_limit_reset)s днів."
 
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:26
+=======
+#: bookwyrm/templates/import/import.html:27
+>>>>>>> main
 #, python-format
 msgid "You have %(display_left)s left."
 msgstr "Залишилось %(display_left)s."
 
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:33
 #, python-format
 msgid "On average, recent imports have taken %(hours)s hours."
@@ -2982,6 +3461,92 @@ msgstr "Одиниць"
 #: bookwyrm/templates/import/import.html:144
 #: bookwyrm/templates/import/import_user.html:183
 #: bookwyrm/templates/preferences/export-user.html:87
+=======
+#: bookwyrm/templates/import/import.html:34
+#, python-format
+msgid "On average, recent imports have taken %(hours)s hours."
+msgstr "В середньому, недавні імпорти зайняли %(hours)s годин."
+
+#: bookwyrm/templates/import/import.html:38
+#, python-format
+msgid "On average, recent imports have taken %(minutes)s minutes."
+msgstr "В середньому, недавні імпорти зайняли %(minutes)s хвилин."
+
+#: bookwyrm/templates/import/import.html:53
+msgid "Data source:"
+msgstr "Джерело даних:"
+
+#: bookwyrm/templates/import/import.html:59
+msgid "Goodreads (CSV)"
+msgstr "Goodreads (CSV)"
+
+#: bookwyrm/templates/import/import.html:62
+msgid "Storygraph (CSV)"
+msgstr "Storygraph (CSV)"
+
+#: bookwyrm/templates/import/import.html:65
+msgid "LibraryThing (TSV)"
+msgstr "LibraryThing (TSV)"
+
+#: bookwyrm/templates/import/import.html:68
+msgid "OpenLibrary (CSV)"
+msgstr "OpenLibrary (CSV)"
+
+#: bookwyrm/templates/import/import.html:71
+msgid "Calibre (CSV)"
+msgstr "Calibre (CSV)"
+
+#: bookwyrm/templates/import/import.html:77
+msgid "You can download your Goodreads data from the <a href=\"https://www.goodreads.com/review/import\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Import/Export page</a> of your Goodreads account."
+msgstr "Ви можете завантажити дані Goodreads на <a href=\"https://www.goodreads.com/review/import\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">сторінці Import/Export</a> вашого облікового запису Goodreads."
+
+#: bookwyrm/templates/import/import.html:86
+msgid "Data file:"
+msgstr "Файл даних:"
+
+#: bookwyrm/templates/import/import.html:94
+msgid "Include reviews"
+msgstr "Разом з рецензіями"
+
+#: bookwyrm/templates/import/import.html:99
+msgid "Privacy setting for imported reviews:"
+msgstr "Налаштування приватності для імпортованих рецензій:"
+
+#: bookwyrm/templates/import/import.html:106
+#: bookwyrm/templates/import/import.html:108
+#: bookwyrm/templates/preferences/layout.html:43
+#: bookwyrm/templates/settings/federation/instance_blocklist.html:78
+msgid "Import"
+msgstr "Імпортувати"
+
+#: bookwyrm/templates/import/import.html:109
+msgid "You've reached the import limit."
+msgstr "Ви досягли ліміту на імпорт."
+
+#: bookwyrm/templates/import/import.html:118
+msgid "Imports are temporarily disabled; thank you for your patience."
+msgstr "Імпортування тимчасово відключено; дякуємо за терпіння."
+
+#: bookwyrm/templates/import/import.html:125
+msgid "Recent Imports"
+msgstr "Останні Імпорти"
+
+#: bookwyrm/templates/import/import.html:130
+#: bookwyrm/templates/settings/imports/imports.html:120
+msgid "Date Created"
+msgstr "Дата Створення"
+
+#: bookwyrm/templates/import/import.html:133
+msgid "Last Updated"
+msgstr "Останнє Оновлення"
+
+#: bookwyrm/templates/import/import.html:136
+#: bookwyrm/templates/settings/imports/imports.html:129
+msgid "Items"
+msgstr "Одиниць"
+
+#: bookwyrm/templates/import/import.html:145
+>>>>>>> main
 msgid "No recent imports"
 msgstr "Останнім часом імпортів не було"
 
@@ -3017,8 +3582,12 @@ msgid "Refresh"
 msgstr "Оновити"
 
 #: bookwyrm/templates/import/import_status.html:72
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:194
 #: bookwyrm/templates/settings/imports/imports.html:271
+=======
+#: bookwyrm/templates/settings/imports/imports.html:161
+>>>>>>> main
 msgid "Stop import"
 msgstr "Зупинити імпорт"
 
@@ -3103,6 +3672,7 @@ msgstr "Показати імпортовану рецензію"
 #: bookwyrm/templates/import/import_status.html:200
 msgid "Imported"
 msgstr "Імпортовано"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/import/import_status.html:206
 msgid "Needs manual review"
@@ -3302,6 +3872,80 @@ msgstr "Зв'яжіться з вашим адміністратором або 
 msgid "Create an Account"
 msgstr "Зареєструватися"
 
+=======
+
+#: bookwyrm/templates/import/import_status.html:206
+msgid "Needs manual review"
+msgstr "Потребує ручної перевірки"
+
+#: bookwyrm/templates/import/import_status.html:219
+msgid "Retry"
+msgstr "Спробувати знову"
+
+#: bookwyrm/templates/import/import_status.html:237
+msgid "This import is in an old format that is no longer supported. If you would like to troubleshoot missing items from this import, click the button below to update the import format."
+msgstr "Це імпорт старого формату, який більше не підтримується. Якщо ви хочете виправити невдалі елементи з цього імпорту, натисніть на кнопку нижче, щоб оновити формат імпорту."
+
+#: bookwyrm/templates/import/import_status.html:239
+msgid "Update import"
+msgstr "Оновити імпорт"
+
+#: bookwyrm/templates/import/manual_review.html:5
+#: bookwyrm/templates/import/troubleshoot.html:4
+msgid "Import Troubleshooting"
+msgstr "Виправлення Імпорту"
+
+#: bookwyrm/templates/import/manual_review.html:21
+msgid "Approving a suggestion will permanently add the suggested book to your shelves and associate your reading dates, reviews, and ratings with that book."
+msgstr "Підтвердження пропозиції назавжди додасть запропоновану книгу до ваших полиць та асоціює ваші дати читання, рецензії та рейтинги з цією книгою."
+
+#: bookwyrm/templates/import/manual_review.html:58
+#: bookwyrm/templates/lists/curate.html:71
+#: bookwyrm/templates/settings/link_domains/link_domains.html:76
+msgid "Approve"
+msgstr "Підтвердити"
+
+#: bookwyrm/templates/import/manual_review.html:66
+msgid "Reject"
+msgstr "Відхилити"
+
+#: bookwyrm/templates/import/troubleshoot.html:7
+#: bookwyrm/templates/settings/imports/imports.html:138
+msgid "Failed items"
+msgstr "Невдалі елементи"
+
+#: bookwyrm/templates/import/troubleshoot.html:12
+msgid "Troubleshooting"
+msgstr "Виправлення невдалого імпорту"
+
+#: bookwyrm/templates/import/troubleshoot.html:20
+msgid "Re-trying an import can fix missing items in cases such as:"
+msgstr "Повторна спроба імпорту може виправити пропущені елементи у таких випадках, як:"
+
+#: bookwyrm/templates/import/troubleshoot.html:23
+msgid "The book has been added to the instance since this import"
+msgstr "Книга була додана до інстансу з моменту імпорту"
+
+#: bookwyrm/templates/import/troubleshoot.html:24
+msgid "A transient error or timeout caused the external data source to be unavailable."
+msgstr "Непостійна помилка або тайм-аут призвела до недоступності зовнішнього джерела даних."
+
+#: bookwyrm/templates/import/troubleshoot.html:25
+msgid "BookWyrm has been updated since this import with a bug fix"
+msgstr "З моменту цього імпорту, BookWyrm було оновлено з виправленням помилок"
+
+#: bookwyrm/templates/import/troubleshoot.html:28
+msgid "Contact your admin or <a href='https://github.com/bookwyrm-social/bookwyrm/issues'>open an issue</a> if you are seeing unexpected failed items."
+msgstr "Зв'яжіться з вашим адміністратором або <a href='https://github.com/bookwyrm-social/bookwyrm/issues'>сповістіть про проблему</a>, якщо ви бачите неочікувані помилки."
+
+#: bookwyrm/templates/landing/invite.html:4
+#: bookwyrm/templates/landing/invite.html:8
+#: bookwyrm/templates/landing/login.html:48
+#: bookwyrm/templates/landing/reactivate.html:41
+msgid "Create an Account"
+msgstr "Зареєструватися"
+
+>>>>>>> main
 #: bookwyrm/templates/landing/invite.html:22
 msgid "Sorry! This invite code is no longer valid."
 msgstr "Вибачте! Цей код запрошення більше не дійсний."
@@ -3936,8 +4580,13 @@ msgid "New <a href=\"%(path)s\">invite request</a> awaiting response"
 msgid_plural "%(display_count)s new <a href=\"%(path)s\">invite requests</a> awaiting response"
 msgstr[0] ""
 msgstr[1] ""
+<<<<<<< HEAD
 msgstr[2] "%(display_count)s нових <a href=\"%(path)s\">запрошень</a> очікують на відповідь"
 msgstr[3] "%(display_count)s нових <a href=\"%(path)s\">запрошень</a> очікують на відповідь"
+=======
+msgstr[2] ""
+msgstr[3] ""
+>>>>>>> main
 
 #: bookwyrm/templates/notifications/items/join.html:16
 #, python-format
@@ -4057,6 +4706,7 @@ msgstr ""
 msgid "has changed the description of <a href=\"%(group_path)s\">%(group_name)s</a>"
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/notifications/items/user_export.html:14
 #, python-format
 msgid "Your <a href=\"%(url)s\">user export</a> is ready."
@@ -4067,6 +4717,8 @@ msgstr ""
 msgid "Your <a href=\"%(import_url)s\">user import</a> is complete."
 msgstr ""
 
+=======
+>>>>>>> main
 #: bookwyrm/templates/notifications/notifications_page.html:19
 msgid "Delete notifications"
 msgstr ""
@@ -4310,7 +4962,11 @@ msgstr "Видалити псевдонім"
 
 #: bookwyrm/templates/preferences/blocks.html:4
 #: bookwyrm/templates/preferences/blocks.html:7
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/layout.html:62
+=======
+#: bookwyrm/templates/preferences/layout.html:54
+>>>>>>> main
 msgid "Blocked Users"
 msgstr ""
 
@@ -4445,6 +5101,7 @@ msgstr ""
 msgid "Looking for shelf privacy? You can set a separate visibility level for each of your shelves. Go to <a href=\"%(path)s\">Your Books</a>, pick a shelf from the tab bar, and click \"Edit shelf.\""
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/export-user.html:5
 #: bookwyrm/templates/preferences/export-user.html:8
 #: bookwyrm/templates/preferences/layout.html:55
@@ -4504,6 +5161,15 @@ msgstr ""
 
 #: bookwyrm/templates/preferences/export.html:13
 msgid "Your CSV export file will include all the books on your shelves, books you have reviewed, and books with reading activity. <br/>Use this to import into a service like Goodreads."
+=======
+#: bookwyrm/templates/preferences/export.html:4
+#: bookwyrm/templates/preferences/export.html:7
+msgid "CSV Export"
+msgstr "Експорт CSV"
+
+#: bookwyrm/templates/preferences/export.html:13
+msgid "Your export will include all the books on your shelves, books you have reviewed, and books with reading activity."
+>>>>>>> main
 msgstr ""
 
 #: bookwyrm/templates/preferences/export.html:20
@@ -4522,7 +5188,15 @@ msgstr ""
 msgid "Data"
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/layout.html:58
+=======
+#: bookwyrm/templates/preferences/layout.html:47
+msgid "CSV export"
+msgstr ""
+
+#: bookwyrm/templates/preferences/layout.html:50
+>>>>>>> main
 msgid "Relationships"
 msgstr ""
 
@@ -5016,8 +5690,12 @@ msgid "Active Tasks"
 msgstr "Активні завдання"
 
 #: bookwyrm/templates/settings/celery.html:131
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:146
 #: bookwyrm/templates/settings/imports/imports.html:236
+=======
+#: bookwyrm/templates/settings/imports/imports.html:113
+>>>>>>> main
 msgid "ID"
 msgstr "ID"
 
@@ -5413,6 +6091,7 @@ msgstr "Останнє оновлення"
 #: bookwyrm/templates/settings/federation/software_filter.html:5
 msgid "Software"
 msgstr "ПО"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/settings/federation/instance_list.html:70
 msgid "No instances found"
@@ -5427,6 +6106,17 @@ msgstr "Зупинити імпорт?"
 msgid "This action will stop the user import before it is complete and cannot be un-done"
 msgstr ""
 
+=======
+
+#: bookwyrm/templates/settings/federation/instance_list.html:70
+msgid "No instances found"
+msgstr "Інстансів не знайдено"
+
+#: bookwyrm/templates/settings/imports/complete_import_modal.html:4
+msgid "Stop import?"
+msgstr "Зупинити імпорт?"
+
+>>>>>>> main
 #: bookwyrm/templates/settings/imports/imports.html:19
 msgid "Disable starting new imports"
 msgstr "Вимкнути створення нових імпортів"
@@ -5439,6 +6129,7 @@ msgstr "Це потрібно лише у тих ситуаціях, коли з
 msgid "While imports are disabled, users will not be allowed to start new imports, but existing imports will not be affected."
 msgstr "Поки імпорти вимкнені, користувачі не зможуть додавати нові, але на наявний імпорт це не вплине."
 
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:32
 msgid "This setting prevents both book imports and user imports."
 msgstr ""
@@ -5539,6 +6230,71 @@ msgstr "Відповідних імпортів не знайдено."
 #: bookwyrm/templates/settings/imports/imports.html:215
 msgid "User Imports"
 msgstr ""
+=======
+#: bookwyrm/templates/settings/imports/imports.html:36
+msgid "Disable imports"
+msgstr "Вимкнути імпорти"
+
+#: bookwyrm/templates/settings/imports/imports.html:50
+msgid "Users are currently unable to start new imports"
+msgstr "Наразі користувачі не можуть додати новий імпорт"
+
+#: bookwyrm/templates/settings/imports/imports.html:55
+msgid "Enable imports"
+msgstr "Увімкнути імпорти"
+
+#: bookwyrm/templates/settings/imports/imports.html:63
+msgid "Limit the amount of imports"
+msgstr "Обмежити кількість імпортувань"
+
+#: bookwyrm/templates/settings/imports/imports.html:74
+msgid "Some users might try to import a large number of books, which you want to limit."
+msgstr "Деякі користувачі можуть спробувати імпортувати велику кількість книг, що не завадить обмежити."
+
+#: bookwyrm/templates/settings/imports/imports.html:75
+msgid "Set the value to 0 to not enforce any limit."
+msgstr "Встановіть значення 0, аби не встановлювати жодних обмежень."
+
+#: bookwyrm/templates/settings/imports/imports.html:78
+msgid "Set import limit to"
+msgstr "Встановити обмеження імпорту у"
+
+#: bookwyrm/templates/settings/imports/imports.html:80
+msgid "books every"
+msgstr "книг кожні"
+
+#: bookwyrm/templates/settings/imports/imports.html:82
+msgid "days."
+msgstr "днів."
+
+#: bookwyrm/templates/settings/imports/imports.html:86
+msgid "Set limit"
+msgstr "Встановити ліміт"
+
+#: bookwyrm/templates/settings/imports/imports.html:102
+msgid "Completed"
+msgstr "Завершені"
+
+#: bookwyrm/templates/settings/imports/imports.html:116
+msgid "User"
+msgstr "Користувач"
+
+#: bookwyrm/templates/settings/imports/imports.html:125
+msgid "Date Updated"
+msgstr "Останнє Оновлення"
+
+#: bookwyrm/templates/settings/imports/imports.html:132
+msgid "Pending items"
+msgstr "В очікуванні"
+
+#: bookwyrm/templates/settings/imports/imports.html:135
+msgid "Successful items"
+msgstr "Успішно імпортовано"
+
+#: bookwyrm/templates/settings/imports/imports.html:170
+msgid "No matching imports found."
+msgstr "Відповідних імпортів не знайдено."
+>>>>>>> main
 
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:4
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:11
@@ -6019,6 +6775,7 @@ msgstr "Email адміністратора:"
 #: bookwyrm/templates/settings/site.html:137
 msgid "Additional info:"
 msgstr "Додаткова інформація:"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/settings/themes.html:10
 msgid "Set instance default theme"
@@ -6089,6 +6846,78 @@ msgstr "Поламана тема"
 #: bookwyrm/templates/settings/themes.html:152
 msgid "Loaded successfully"
 msgstr "Завантажено успішно"
+=======
+
+#: bookwyrm/templates/settings/themes.html:10
+msgid "Set instance default theme"
+msgstr "Встановити стандартну тему інстансу"
+
+#: bookwyrm/templates/settings/themes.html:19
+msgid "One of your themes appears to be broken. Selecting this theme will make the application unusable."
+msgstr ""
+
+#: bookwyrm/templates/settings/themes.html:28
+msgid "Successfully added theme"
+msgstr "Тему успішно додано"
+
+#: bookwyrm/templates/settings/themes.html:35
+msgid "How to add a theme"
+msgstr "Як додати тему"
+
+#: bookwyrm/templates/settings/themes.html:38
+msgid "Copy the theme file into the <code>bookwyrm/static/css/themes</code> directory on your server from the command line."
+msgstr "Скопіюйте файл теми в директорію <code>bookwyrm/static/css/themes</code> на вашому сервері з командного рядка."
+
+#: bookwyrm/templates/settings/themes.html:41
+msgid "Run <code>./bw-dev compile_themes</code> and <code>./bw-dev collectstatic</code>."
+msgstr "Запустіть <code>./bw-dev compile_themes</code> та <code>./bw-dev collectstatic</code>."
+
+#: bookwyrm/templates/settings/themes.html:44
+msgid "Add the file name using the form below to make it available in the application interface."
+msgstr "Додайте назву файлу використовуючи форму нижче, щоб зробити її доступною в інтерфейсі BookWyrm."
+
+#: bookwyrm/templates/settings/themes.html:51
+#: bookwyrm/templates/settings/themes.html:91
+msgid "Add theme"
+msgstr "Додати тему"
+
+#: bookwyrm/templates/settings/themes.html:57
+msgid "Unable to save theme"
+msgstr "Не вдалося зберегти тему"
+
+#: bookwyrm/templates/settings/themes.html:72
+#: bookwyrm/templates/settings/themes.html:102
+msgid "Theme name"
+msgstr "Назва теми"
+
+#: bookwyrm/templates/settings/themes.html:82
+msgid "Theme filename"
+msgstr "Ім'я файлу теми"
+
+#: bookwyrm/templates/settings/themes.html:97
+msgid "Available Themes"
+msgstr "Доступні теми"
+
+#: bookwyrm/templates/settings/themes.html:105
+msgid "File"
+msgstr "Файл"
+
+#: bookwyrm/templates/settings/themes.html:123
+msgid "Remove theme"
+msgstr "Видалити тему"
+
+#: bookwyrm/templates/settings/themes.html:134
+msgid "Test theme"
+msgstr ""
+
+#: bookwyrm/templates/settings/themes.html:143
+msgid "Broken theme"
+msgstr ""
+
+#: bookwyrm/templates/settings/themes.html:152
+msgid "Loaded successfully"
+msgstr ""
+>>>>>>> main
 
 #: bookwyrm/templates/settings/users/delete_user_form.html:5
 #: bookwyrm/templates/settings/users/user_moderation_actions.html:52
@@ -6213,11 +7042,19 @@ msgstr ""
 
 #: bookwyrm/templates/settings/users/user_moderation_actions.html:18
 msgid "You must not delete or disable this account as it is critical to the functioning of your server. This actor signs outgoing GET requests to smooth interaction with secure ActivityPub servers."
+<<<<<<< HEAD
 msgstr "Ви повинні не видаляти або відключати цей обліковий запис, оскільки він є критичним для функціонування Вашого сервера. Цей персонаж підписує вихідні GET запити на безпроблемну взаємодію з безпечними ActivityPub серверами."
 
 #: bookwyrm/templates/settings/users/user_moderation_actions.html:19
 msgid "This account is not discoverable by ordinary users and does not have a profile page."
 msgstr "Цей обліковий запис не можна знайти звичайними користувачами і у нього немає сторінки профілю."
+=======
+msgstr ""
+
+#: bookwyrm/templates/settings/users/user_moderation_actions.html:19
+msgid "This account is not discoverable by ordinary users and does not have a profile page."
+msgstr ""
+>>>>>>> main
 
 #: bookwyrm/templates/settings/users/user_moderation_actions.html:35
 msgid "Activate user"
@@ -6352,15 +7189,27 @@ msgstr "Створити полицю"
 msgid "Edit Shelf"
 msgstr "Редагувати полицю"
 
+<<<<<<< HEAD
+=======
+#: bookwyrm/templates/shelf/shelf.html:26
+#: bookwyrm/templates/user/relationships/followers.html:18
+#: bookwyrm/templates/user/relationships/following.html:18
+msgid "User profile"
+msgstr "Профіль користувача"
+
+>>>>>>> main
 #: bookwyrm/templates/shelf/shelf.html:41
 #: bookwyrm/templatetags/shelf_tags.py:13 bookwyrm/views/shelf/shelf.py:53
 msgid "All books"
 msgstr "Усі книги"
 
+<<<<<<< HEAD
 #: bookwyrm/templates/shelf/shelf.html:66
 msgid "Import Books"
 msgstr "Імпортувати Книги"
 
+=======
+>>>>>>> main
 #: bookwyrm/templates/shelf/shelf.html:99
 #, python-format
 msgid "%(formatted_count)s book"

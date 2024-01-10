@@ -2,8 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bookwyrm\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-01-02 03:27+0000\n"
 "PO-Revision-Date: 2024-01-02 13:11\n"
+=======
+"POT-Creation-Date: 2023-12-30 23:52+0000\n"
+"PO-Revision-Date: 2024-01-02 03:12\n"
+>>>>>>> main
 "Last-Translator: Mouse Reeve <mousereeve@riseup.net>\n"
 "Language-Team: Swedish\n"
 "Language: sv\n"
@@ -54,6 +59,7 @@ msgstr "Lösenord matchar inte"
 msgid "Incorrect Password"
 msgstr "Felaktigt lösenord"
 
+<<<<<<< HEAD
 #: bookwyrm/forms/forms.py:58
 msgid "Reading finish date cannot be before start date."
 msgstr "Slutdatum för läsning kan inte vara före startdatum."
@@ -67,6 +73,21 @@ msgid "Reading stopped date cannot be in the future."
 msgstr "Stoppdatum för läsning kan inte vara i framtiden."
 
 #: bookwyrm/forms/forms.py:78
+=======
+#: bookwyrm/forms/forms.py:54
+msgid "Reading finish date cannot be before start date."
+msgstr "Slutdatum för läsning kan inte vara före startdatum."
+
+#: bookwyrm/forms/forms.py:59
+msgid "Reading stopped date cannot be before start date."
+msgstr "Stoppdatum för läsning kan inte vara före startdatum."
+
+#: bookwyrm/forms/forms.py:67
+msgid "Reading stopped date cannot be in the future."
+msgstr "Stoppdatum för läsning kan inte vara i framtiden."
+
+#: bookwyrm/forms/forms.py:74
+>>>>>>> main
 msgid "Reading finished date cannot be in the future."
 msgstr "Slutdatum för läsning kan inte vara i framtiden."
 
@@ -146,8 +167,12 @@ msgid "Automatically generated report"
 msgstr "Automatiskt genererad rapport"
 
 #: bookwyrm/models/base_model.py:18 bookwyrm/models/import_job.py:48
+<<<<<<< HEAD
 #: bookwyrm/models/job.py:18 bookwyrm/models/link.py:72
 #: bookwyrm/templates/import/import_status.html:214
+=======
+#: bookwyrm/models/link.py:72 bookwyrm/templates/import/import_status.html:214
+>>>>>>> main
 #: bookwyrm/templates/settings/link_domains/link_domains.html:19
 msgid "Pending"
 msgstr "Pågående"
@@ -259,16 +284,22 @@ msgstr "Följare"
 msgid "Private"
 msgstr "Privat"
 
+<<<<<<< HEAD
 #: bookwyrm/models/import_job.py:49 bookwyrm/models/job.py:19
 #: bookwyrm/templates/import/import.html:173
 #: bookwyrm/templates/import/import_user.html:211
 #: bookwyrm/templates/preferences/export-user.html:112
 #: bookwyrm/templates/settings/imports/imports.html:131
 #: bookwyrm/templates/settings/imports/imports.html:221
+=======
+#: bookwyrm/models/import_job.py:49 bookwyrm/templates/import/import.html:174
+#: bookwyrm/templates/settings/imports/imports.html:98
+>>>>>>> main
 #: bookwyrm/templates/snippets/user_active_tag.html:8
 msgid "Active"
 msgstr "Aktiv"
 
+<<<<<<< HEAD
 #: bookwyrm/models/import_job.py:50 bookwyrm/models/job.py:20
 #: bookwyrm/templates/import/import.html:171
 #: bookwyrm/templates/import/import_user.html:209
@@ -277,6 +308,13 @@ msgid "Complete"
 msgstr "Slutförd"
 
 #: bookwyrm/models/import_job.py:51 bookwyrm/models/job.py:21
+=======
+#: bookwyrm/models/import_job.py:50 bookwyrm/templates/import/import.html:172
+msgid "Complete"
+msgstr "Slutförd"
+
+#: bookwyrm/models/import_job.py:51
+>>>>>>> main
 msgid "Stopped"
 msgstr "Avbruten"
 
@@ -292,6 +330,7 @@ msgstr "Fel uppstod vid inläsning av boken"
 msgid "Could not find a match for book"
 msgstr "Kunde inte hitta en träff för boken"
 
+<<<<<<< HEAD
 #: bookwyrm/models/job.py:22
 msgid "Failed"
 msgstr ""
@@ -323,6 +362,35 @@ msgstr "Kommentar"
 msgid "Resolved report"
 msgstr ""
 
+=======
+#: bookwyrm/models/link.py:51
+msgid "Free"
+msgstr "Gratis"
+
+#: bookwyrm/models/link.py:52
+msgid "Purchasable"
+msgstr "Kan köpas"
+
+#: bookwyrm/models/link.py:53
+msgid "Available for loan"
+msgstr "Tillgänglig för lån"
+
+#: bookwyrm/models/link.py:70
+#: bookwyrm/templates/settings/link_domains/link_domains.html:23
+msgid "Approved"
+msgstr "Godkänd"
+
+#: bookwyrm/models/report.py:84
+#: bookwyrm/templates/settings/reports/report.html:115
+#: bookwyrm/templates/snippets/create_status.html:26
+msgid "Comment"
+msgstr "Kommentar"
+
+#: bookwyrm/models/report.py:85
+msgid "Resolved report"
+msgstr ""
+
+>>>>>>> main
 #: bookwyrm/models/report.py:86
 msgid "Re-opened report"
 msgstr ""
@@ -371,7 +439,11 @@ msgstr "Recensioner"
 msgid "Comments"
 msgstr "Kommentarer"
 
+<<<<<<< HEAD
 #: bookwyrm/models/user.py:35 bookwyrm/templates/import/import_user.html:139
+=======
+#: bookwyrm/models/user.py:35
+>>>>>>> main
 msgid "Quotations"
 msgstr "Citat"
 
@@ -976,7 +1048,10 @@ msgstr "Spara"
 #: bookwyrm/templates/search/barcode_modal.html:43
 #: bookwyrm/templates/settings/federation/instance.html:106
 #: bookwyrm/templates/settings/imports/complete_import_modal.html:16
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/complete_user_import_modal.html:16
+=======
+>>>>>>> main
 #: bookwyrm/templates/settings/link_domains/edit_domain_modal.html:22
 #: bookwyrm/templates/snippets/report_modal.html:52
 msgid "Cancel"
@@ -994,7 +1069,10 @@ msgstr "Att ladda in data kommer att ansluta till <strong>%(source_name)s</stron
 #: bookwyrm/templates/landing/password_reset.html:52
 #: bookwyrm/templates/preferences/2fa.html:77
 #: bookwyrm/templates/settings/imports/complete_import_modal.html:19
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/complete_user_import_modal.html:19
+=======
+>>>>>>> main
 #: bookwyrm/templates/snippets/remove_from_group_button.html:17
 msgid "Confirm"
 msgstr "Bekräfta"
@@ -1494,12 +1572,18 @@ msgid "Domain"
 msgstr "Domän"
 
 #: bookwyrm/templates/book/file_links/edit_links.html:36
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:138
 #: bookwyrm/templates/import/import_status.html:134
 #: bookwyrm/templates/import/import_user.html:177
 #: bookwyrm/templates/preferences/export-user.html:78
 #: bookwyrm/templates/settings/announcements/announcements.html:37
 #: bookwyrm/templates/settings/imports/imports.html:255
+=======
+#: bookwyrm/templates/import/import.html:139
+#: bookwyrm/templates/import/import_status.html:134
+#: bookwyrm/templates/settings/announcements/announcements.html:37
+>>>>>>> main
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:48
 #: bookwyrm/templates/settings/invites/status_filter.html:5
 #: bookwyrm/templates/settings/themes.html:111
@@ -1511,8 +1595,12 @@ msgstr "Status"
 #: bookwyrm/templates/book/file_links/edit_links.html:37
 #: bookwyrm/templates/settings/announcements/announcements.html:41
 #: bookwyrm/templates/settings/federation/instance.html:112
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:174
 #: bookwyrm/templates/settings/imports/imports.html:253
+=======
+#: bookwyrm/templates/settings/imports/imports.html:141
+>>>>>>> main
 #: bookwyrm/templates/settings/reports/report_links_table.html:6
 #: bookwyrm/templates/settings/themes.html:108
 msgid "Actions"
@@ -2844,6 +2932,7 @@ msgid "No activities for this hashtag yet!"
 msgstr "Inga aktiviteter för den här hash-taggen än!"
 
 #: bookwyrm/templates/import/import.html:5
+<<<<<<< HEAD
 #: bookwyrm/templates/import/import.html:6
 #: bookwyrm/templates/preferences/layout.html:43
 msgid "Import Book List"
@@ -2959,6 +3048,113 @@ msgstr "Föremål"
 #: bookwyrm/templates/import/import.html:144
 #: bookwyrm/templates/import/import_user.html:183
 #: bookwyrm/templates/preferences/export-user.html:87
+=======
+#: bookwyrm/templates/import/import.html:9
+#: bookwyrm/templates/shelf/shelf.html:66
+msgid "Import Books"
+msgstr "Importera böcker"
+
+#: bookwyrm/templates/import/import.html:13
+msgid "Not a valid CSV file"
+msgstr "Inte en giltig CSV-fil"
+
+#: bookwyrm/templates/import/import.html:21
+#, python-format
+msgid "Currently, you are allowed to import %(display_size)s books every %(import_limit_reset)s day."
+msgid_plural "Currently, you are allowed to import %(display_size)s books every %(import_limit_reset)s days."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bookwyrm/templates/import/import.html:27
+#, python-format
+msgid "You have %(display_left)s left."
+msgstr ""
+
+#: bookwyrm/templates/import/import.html:34
+#, python-format
+msgid "On average, recent imports have taken %(hours)s hours."
+msgstr "De senaste importerna har i genomsnitt tagit %(hours)s timmar."
+
+#: bookwyrm/templates/import/import.html:38
+#, python-format
+msgid "On average, recent imports have taken %(minutes)s minutes."
+msgstr "De senaste importerna har i genomsnitt tagit %(minutes)s minuter."
+
+#: bookwyrm/templates/import/import.html:53
+msgid "Data source:"
+msgstr "Datakälla:"
+
+#: bookwyrm/templates/import/import.html:59
+msgid "Goodreads (CSV)"
+msgstr "Goodreads (CSV)"
+
+#: bookwyrm/templates/import/import.html:62
+msgid "Storygraph (CSV)"
+msgstr "Storygraph (CSV)"
+
+#: bookwyrm/templates/import/import.html:65
+msgid "LibraryThing (TSV)"
+msgstr "LibraryThing (TSV)"
+
+#: bookwyrm/templates/import/import.html:68
+msgid "OpenLibrary (CSV)"
+msgstr "OpenLibrary (CSV)"
+
+#: bookwyrm/templates/import/import.html:71
+msgid "Calibre (CSV)"
+msgstr "Calibre (CSV)"
+
+#: bookwyrm/templates/import/import.html:77
+msgid "You can download your Goodreads data from the <a href=\"https://www.goodreads.com/review/import\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Import/Export page</a> of your Goodreads account."
+msgstr "Du kan ladda ner din Goodreads-data från <a href=\"https://www.goodreads.com/review/import\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Import/Export-sidan</a> för ditt Goodreads-konto."
+
+#: bookwyrm/templates/import/import.html:86
+msgid "Data file:"
+msgstr "Datafil:"
+
+#: bookwyrm/templates/import/import.html:94
+msgid "Include reviews"
+msgstr "Inkludera recensioner"
+
+#: bookwyrm/templates/import/import.html:99
+msgid "Privacy setting for imported reviews:"
+msgstr "Integritetsinställning för importerade recensioner:"
+
+#: bookwyrm/templates/import/import.html:106
+#: bookwyrm/templates/import/import.html:108
+#: bookwyrm/templates/preferences/layout.html:43
+#: bookwyrm/templates/settings/federation/instance_blocklist.html:78
+msgid "Import"
+msgstr "Importera"
+
+#: bookwyrm/templates/import/import.html:109
+msgid "You've reached the import limit."
+msgstr "Du har nått importeringsgränsen."
+
+#: bookwyrm/templates/import/import.html:118
+msgid "Imports are temporarily disabled; thank you for your patience."
+msgstr "Importer är tillfälligt inaktiverade, tack för ditt tålamod."
+
+#: bookwyrm/templates/import/import.html:125
+msgid "Recent Imports"
+msgstr "Senaste importer"
+
+#: bookwyrm/templates/import/import.html:130
+#: bookwyrm/templates/settings/imports/imports.html:120
+msgid "Date Created"
+msgstr "Skapad"
+
+#: bookwyrm/templates/import/import.html:133
+msgid "Last Updated"
+msgstr "Senast uppdaterad"
+
+#: bookwyrm/templates/import/import.html:136
+#: bookwyrm/templates/settings/imports/imports.html:129
+msgid "Items"
+msgstr "Föremål"
+
+#: bookwyrm/templates/import/import.html:145
+>>>>>>> main
 msgid "No recent imports"
 msgstr "Ingen importering nyligen"
 
@@ -2994,8 +3190,12 @@ msgid "Refresh"
 msgstr "Uppdatera"
 
 #: bookwyrm/templates/import/import_status.html:72
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:194
 #: bookwyrm/templates/settings/imports/imports.html:271
+=======
+#: bookwyrm/templates/settings/imports/imports.html:161
+>>>>>>> main
 msgid "Stop import"
 msgstr "Avsluta import"
 
@@ -3076,6 +3276,7 @@ msgstr "Visa importerad recension"
 #: bookwyrm/templates/import/import_status.html:200
 msgid "Imported"
 msgstr "Importerade"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/import/import_status.html:206
 msgid "Needs manual review"
@@ -3275,6 +3476,80 @@ msgstr "Kontakta din administratör eller <a href='https://github.com/bookwyrm-s
 msgid "Create an Account"
 msgstr "Skapa ett konto"
 
+=======
+
+#: bookwyrm/templates/import/import_status.html:206
+msgid "Needs manual review"
+msgstr "Behöver manuell granskning"
+
+#: bookwyrm/templates/import/import_status.html:219
+msgid "Retry"
+msgstr "Försök igen"
+
+#: bookwyrm/templates/import/import_status.html:237
+msgid "This import is in an old format that is no longer supported. If you would like to troubleshoot missing items from this import, click the button below to update the import format."
+msgstr "Den här importen är i ett gammalt format som inte längre stöds. Om du vill felsöka saknade objekt från denna import, klicka på knappen nedan för att uppdatera importformat."
+
+#: bookwyrm/templates/import/import_status.html:239
+msgid "Update import"
+msgstr "Uppdatera importering"
+
+#: bookwyrm/templates/import/manual_review.html:5
+#: bookwyrm/templates/import/troubleshoot.html:4
+msgid "Import Troubleshooting"
+msgstr "Importera problemsökning"
+
+#: bookwyrm/templates/import/manual_review.html:21
+msgid "Approving a suggestion will permanently add the suggested book to your shelves and associate your reading dates, reviews, and ratings with that book."
+msgstr "Godkännandet av ett förslag kommer permanent lägga till den föreslagna boken till dina hyllor och associera dina läsdatum, recensioner och betyg med den boken."
+
+#: bookwyrm/templates/import/manual_review.html:58
+#: bookwyrm/templates/lists/curate.html:71
+#: bookwyrm/templates/settings/link_domains/link_domains.html:76
+msgid "Approve"
+msgstr "Godkänn"
+
+#: bookwyrm/templates/import/manual_review.html:66
+msgid "Reject"
+msgstr "Neka"
+
+#: bookwyrm/templates/import/troubleshoot.html:7
+#: bookwyrm/templates/settings/imports/imports.html:138
+msgid "Failed items"
+msgstr "Misslyckade objekt"
+
+#: bookwyrm/templates/import/troubleshoot.html:12
+msgid "Troubleshooting"
+msgstr "Felsökning"
+
+#: bookwyrm/templates/import/troubleshoot.html:20
+msgid "Re-trying an import can fix missing items in cases such as:"
+msgstr "Att prova en importering igen kan lösa objekt som saknades så som:"
+
+#: bookwyrm/templates/import/troubleshoot.html:23
+msgid "The book has been added to the instance since this import"
+msgstr "Den här boken har lagts till i instansen sedan den här importeringen"
+
+#: bookwyrm/templates/import/troubleshoot.html:24
+msgid "A transient error or timeout caused the external data source to be unavailable."
+msgstr "Ett tillfälligt fel eller timeout orsakade att den externa datakällan inte var tillgänglig."
+
+#: bookwyrm/templates/import/troubleshoot.html:25
+msgid "BookWyrm has been updated since this import with a bug fix"
+msgstr "BookWyrm har blivit uppdaterad sedan den här importen med en fel-lösning"
+
+#: bookwyrm/templates/import/troubleshoot.html:28
+msgid "Contact your admin or <a href='https://github.com/bookwyrm-social/bookwyrm/issues'>open an issue</a> if you are seeing unexpected failed items."
+msgstr "Kontakta din administratör eller <a href='https://github.com/bookwyrm-social/bookwyrm/issues'>öppna ett problem</a> om du ser oväntade misslyckade objekt."
+
+#: bookwyrm/templates/landing/invite.html:4
+#: bookwyrm/templates/landing/invite.html:8
+#: bookwyrm/templates/landing/login.html:48
+#: bookwyrm/templates/landing/reactivate.html:41
+msgid "Create an Account"
+msgstr "Skapa ett konto"
+
+>>>>>>> main
 #: bookwyrm/templates/landing/invite.html:22
 msgid "Sorry! This invite code is no longer valid."
 msgstr "Tyvärr! Den här inbjudningskoden är inte längre giltig."
@@ -3999,6 +4274,7 @@ msgid "A new <a href=\"%(path)s\">report</a> needs moderation"
 msgid_plural "%(display_count)s new <a href=\"%(path)s\">reports</a> need moderation"
 msgstr[0] "En ny <a href=\"%(path)s\">rapport</a> behöver moderering"
 msgstr[1] "%(display_count)s nya <a href=\"%(path)s\">rapporter</a> behöver moderering"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/notifications/items/status_preview.html:4
 #: bookwyrm/templates/snippets/status/content_status.html:62
@@ -4029,6 +4305,28 @@ msgstr ""
 #, python-format
 msgid "Your <a href=\"%(import_url)s\">user import</a> is complete."
 msgstr ""
+=======
+
+#: bookwyrm/templates/notifications/items/status_preview.html:4
+#: bookwyrm/templates/snippets/status/content_status.html:62
+msgid "Content warning"
+msgstr "Innehållsvarning"
+
+#: bookwyrm/templates/notifications/items/update.html:16
+#, python-format
+msgid "has changed the privacy level for <a href=\"%(group_path)s\">%(group_name)s</a>"
+msgstr "har ändrat integritetsnivån för <a href=\"%(group_path)s\">%(group_name)s</a>"
+
+#: bookwyrm/templates/notifications/items/update.html:20
+#, python-format
+msgid "has changed the name of <a href=\"%(group_path)s\">%(group_name)s</a>"
+msgstr "har ändrat namnet på <a href=\"%(group_path)s\">%(group_name)s</a>"
+
+#: bookwyrm/templates/notifications/items/update.html:24
+#, python-format
+msgid "has changed the description of <a href=\"%(group_path)s\">%(group_name)s</a>"
+msgstr "har ändrat beskrivningen på <a href=\"%(group_path)s\">%(group_name)s</a>"
+>>>>>>> main
 
 #: bookwyrm/templates/notifications/notifications_page.html:19
 msgid "Delete notifications"
@@ -4273,7 +4571,11 @@ msgstr ""
 
 #: bookwyrm/templates/preferences/blocks.html:4
 #: bookwyrm/templates/preferences/blocks.html:7
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/layout.html:62
+=======
+#: bookwyrm/templates/preferences/layout.html:54
+>>>>>>> main
 msgid "Blocked Users"
 msgstr "Blockerade användare"
 
@@ -4408,11 +4710,26 @@ msgstr "Standardsekretess för inlägg:"
 msgid "Looking for shelf privacy? You can set a separate visibility level for each of your shelves. Go to <a href=\"%(path)s\">Your Books</a>, pick a shelf from the tab bar, and click \"Edit shelf.\""
 msgstr ""
 
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/export-user.html:5
 #: bookwyrm/templates/preferences/export-user.html:8
 #: bookwyrm/templates/preferences/layout.html:55
 msgid "Export BookWyrm Account"
 msgstr ""
+=======
+#: bookwyrm/templates/preferences/export.html:4
+#: bookwyrm/templates/preferences/export.html:7
+msgid "CSV Export"
+msgstr "CSV-export"
+
+#: bookwyrm/templates/preferences/export.html:13
+msgid "Your export will include all the books on your shelves, books you have reviewed, and books with reading activity."
+msgstr "Din export inkluderar alla böcker som du har på din hylla, har recenserat och böcker med läsaktivitet."
+
+#: bookwyrm/templates/preferences/export.html:20
+msgid "Download file"
+msgstr "Ladda ner fil"
+>>>>>>> main
 
 #: bookwyrm/templates/preferences/export-user.html:14
 msgid "You can create an export file here. This will allow you to migrate your data to another BookWyrm account."
@@ -4485,7 +4802,15 @@ msgstr ""
 msgid "Data"
 msgstr "Data"
 
+<<<<<<< HEAD
 #: bookwyrm/templates/preferences/layout.html:58
+=======
+#: bookwyrm/templates/preferences/layout.html:47
+msgid "CSV export"
+msgstr "CSV-export"
+
+#: bookwyrm/templates/preferences/layout.html:50
+>>>>>>> main
 msgid "Relationships"
 msgstr "Förhållanden"
 
@@ -4975,8 +5300,12 @@ msgid "Active Tasks"
 msgstr "Aktiva uppgifter"
 
 #: bookwyrm/templates/settings/celery.html:131
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:146
 #: bookwyrm/templates/settings/imports/imports.html:236
+=======
+#: bookwyrm/templates/settings/imports/imports.html:113
+>>>>>>> main
 msgid "ID"
 msgstr "ID"
 
@@ -5364,6 +5693,7 @@ msgstr "Uppdaterades senast"
 #: bookwyrm/templates/settings/federation/software_filter.html:5
 msgid "Software"
 msgstr "Mjukvara"
+<<<<<<< HEAD
 
 #: bookwyrm/templates/settings/federation/instance_list.html:70
 msgid "No instances found"
@@ -5378,6 +5708,17 @@ msgstr "Avsluta import?"
 msgid "This action will stop the user import before it is complete and cannot be un-done"
 msgstr ""
 
+=======
+
+#: bookwyrm/templates/settings/federation/instance_list.html:70
+msgid "No instances found"
+msgstr "Inga instanser hittades"
+
+#: bookwyrm/templates/settings/imports/complete_import_modal.html:4
+msgid "Stop import?"
+msgstr "Avsluta import?"
+
+>>>>>>> main
 #: bookwyrm/templates/settings/imports/imports.html:19
 msgid "Disable starting new imports"
 msgstr "Inaktivera start av nya importer"
@@ -5390,6 +5731,7 @@ msgstr "Detta är bara avsett att användas när saker och ting har gått mycket
 msgid "While imports are disabled, users will not be allowed to start new imports, but existing imports will not be affected."
 msgstr "Medans importer är avstängda så kommer användare inte att tillåtas att påbörja nya importer, men befintliga importer påverkas inte."
 
+<<<<<<< HEAD
 #: bookwyrm/templates/settings/imports/imports.html:32
 msgid "This setting prevents both book imports and user imports."
 msgstr ""
@@ -5490,6 +5832,71 @@ msgstr "Inga matchande importer hittades."
 #: bookwyrm/templates/settings/imports/imports.html:215
 msgid "User Imports"
 msgstr ""
+=======
+#: bookwyrm/templates/settings/imports/imports.html:36
+msgid "Disable imports"
+msgstr "Inaktivera importer"
+
+#: bookwyrm/templates/settings/imports/imports.html:50
+msgid "Users are currently unable to start new imports"
+msgstr "Användare kan för närvarande inte starta nya importer"
+
+#: bookwyrm/templates/settings/imports/imports.html:55
+msgid "Enable imports"
+msgstr "Aktivera importer"
+
+#: bookwyrm/templates/settings/imports/imports.html:63
+msgid "Limit the amount of imports"
+msgstr "Begränsa mängden importer"
+
+#: bookwyrm/templates/settings/imports/imports.html:74
+msgid "Some users might try to import a large number of books, which you want to limit."
+msgstr "En del användare kan försöka importera ett stort antal böcker som du kan vilja begränsa."
+
+#: bookwyrm/templates/settings/imports/imports.html:75
+msgid "Set the value to 0 to not enforce any limit."
+msgstr "Sätt värdet till 0 för att inte påtvinga någon gräns."
+
+#: bookwyrm/templates/settings/imports/imports.html:78
+msgid "Set import limit to"
+msgstr "Sätt importeringsgränsen till"
+
+#: bookwyrm/templates/settings/imports/imports.html:80
+msgid "books every"
+msgstr "böcker var"
+
+#: bookwyrm/templates/settings/imports/imports.html:82
+msgid "days."
+msgstr "dagar."
+
+#: bookwyrm/templates/settings/imports/imports.html:86
+msgid "Set limit"
+msgstr "Ställ in gränsen"
+
+#: bookwyrm/templates/settings/imports/imports.html:102
+msgid "Completed"
+msgstr "Slutförd"
+
+#: bookwyrm/templates/settings/imports/imports.html:116
+msgid "User"
+msgstr "Användare"
+
+#: bookwyrm/templates/settings/imports/imports.html:125
+msgid "Date Updated"
+msgstr "Uppdaterad"
+
+#: bookwyrm/templates/settings/imports/imports.html:132
+msgid "Pending items"
+msgstr "Väntande objekt"
+
+#: bookwyrm/templates/settings/imports/imports.html:135
+msgid "Successful items"
+msgstr "Framgångsrika objekt"
+
+#: bookwyrm/templates/settings/imports/imports.html:170
+msgid "No matching imports found."
+msgstr "Inga matchande importer hittades."
+>>>>>>> main
 
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:4
 #: bookwyrm/templates/settings/invites/manage_invite_requests.html:11
@@ -6303,15 +6710,27 @@ msgstr "Skapa hylla"
 msgid "Edit Shelf"
 msgstr "Redigera hylla"
 
+<<<<<<< HEAD
+=======
+#: bookwyrm/templates/shelf/shelf.html:26
+#: bookwyrm/templates/user/relationships/followers.html:18
+#: bookwyrm/templates/user/relationships/following.html:18
+msgid "User profile"
+msgstr "Användarprofil"
+
+>>>>>>> main
 #: bookwyrm/templates/shelf/shelf.html:41
 #: bookwyrm/templatetags/shelf_tags.py:13 bookwyrm/views/shelf/shelf.py:53
 msgid "All books"
 msgstr "Alla böcker"
 
+<<<<<<< HEAD
 #: bookwyrm/templates/shelf/shelf.html:66
 msgid "Import Books"
 msgstr "Importera böcker"
 
+=======
+>>>>>>> main
 #: bookwyrm/templates/shelf/shelf.html:99
 #, python-format
 msgid "%(formatted_count)s book"
