@@ -11,14 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    # - name: Set up Python 3.9
-    #   uses: actions/setup-python@v4
-    #   with:
-    #     python-version: 3.9
-    # - name: Install Dependencies
-    #   run: |
-    #     python -m pip install --upgrade pip
-    #     pip install -r requirements.txt
     # Create the mock file for the update_locales command to work, otherwise
     # we'll get an 'no such file' error
     - name: Create mock .env file
@@ -31,14 +23,3 @@ jobs:
       run: gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # - name: Deploy to server
-      #   id: deploy
-      #   uses: Pendect/action-rsyncer@v1.1.0
-      #   env:
-      #     DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
-      #   with:
-      #     flags: '-avzr --delete'
-      #     options: ''
-      #     ssh_options: ''
-      #     src: 'site/'
-      #     dest: 'mouse@docs.joinbookwyrm.com:/var/www/join-bookwyrm/html'
