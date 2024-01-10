@@ -1,0 +1,36 @@
+name: Update locales
+
+on:
+  push:
+    # run this workflow when someone pushes to the l10n_main branch
+    # TODO remove other branches after testing
+    branches: [l10n_main, main, WIP-2706-update-locales]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run update_locales command
+        run: ./bw-dev update_locales
+      - name: Create pull request
+        run: gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Deploy to server
+      #   id: deploy
+      #   uses: Pendect/action-rsyncer@v1.1.0
+      #   env:
+      #     DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+      #   with:
+      #     flags: '-avzr --delete'
+      #     options: ''
+      #     ssh_options: ''
+      #     src: 'site/'
+      #     dest: 'mouse@docs.joinbookwyrm.com:/var/www/join-bookwyrm/html'
