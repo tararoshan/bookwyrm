@@ -21,7 +21,7 @@ jobs:
 
     - name: Create pull request
       run: |
-        git commit -a -m
+        git commit -a -m "[GitHub Action] Update locales"
         gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
