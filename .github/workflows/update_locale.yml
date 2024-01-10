@@ -23,6 +23,10 @@ jobs:
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
         git fetch origin main:main
+        git branch
+        git switch main
+        git fetch origin l10n_main:l10n_main
+        git checkout l10n_main locale/*
         git commit -m "[GitHub Action] Update locales"
         gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action using the update-locales.yml workflow'
       env:
