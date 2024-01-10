@@ -2,6 +2,16 @@
 from html.parser import HTMLParser
 
 
+
+
+
+
+
+
+
+
+
+
 class InputHtmlParser(HTMLParser):  # pylint: disable=abstract-method
     """Removes any html that isn't allowed_tagsed from a block"""
 

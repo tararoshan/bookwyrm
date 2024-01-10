@@ -26,6 +26,7 @@ jobs:
         git switch main
         git checkout l10n_main locale/*
         git commit -m "[GitHub Action] Update locales"
+        git push origin l10n_main
         gh pr create -B main -H l10n_main --title 'Merge l10n_main into main' --body 'Created by Github action using the update-locales.yml workflow'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -12,6 +12,24 @@ from bookwyrm.tasks import app
 logger = logging.getLogger(__name__)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class SuggestedUsers(RedisStore):
     """suggested users for a user"""
 
