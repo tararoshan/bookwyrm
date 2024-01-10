@@ -2849,6 +2849,12 @@ msgstr ""
 msgid "Import Book List"
 msgstr ""
 
+
+
+
+
+
+
 #: bookwyrm/templates/import/import.html:12
 msgid "Not a valid CSV file"
 msgstr ""
